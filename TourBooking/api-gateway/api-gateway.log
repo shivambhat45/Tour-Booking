@@ -62,3 +62,42 @@
 2022-11-01 00:28:17.805 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
 2022-11-01 00:28:29.487  INFO 12936 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2022-11-01 00:28:47.827 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:29:17.854 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:29:47.872 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:30:17.907 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:30:47.938 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:31:17.966 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:31:47.988 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:32:18.010 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:32:48.039 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:33:18.059 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:33:29.493  INFO 12936 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 00:33:48.082 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:34:18.103 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:34:48.125 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:35:18.157 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:35:48.187 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:36:18.214 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:36:48.233 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:37:18.258 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:37:48.286 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:38:18.311 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:38:29.499  INFO 12936 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 00:38:48.332 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:39:18.369 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:39:48.405 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:40:18.437 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:40:48.460 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:41:18.490 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:41:48.515 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:42:18.537 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:42:48.571 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:43:18.596 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:43:29.507  INFO 12936 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 00:43:48.620 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:44:18.649 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:44:48.673 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:45:18.706 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:45:48.726 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:46:18.755 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 00:46:48.787 DEBUG 12936 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
