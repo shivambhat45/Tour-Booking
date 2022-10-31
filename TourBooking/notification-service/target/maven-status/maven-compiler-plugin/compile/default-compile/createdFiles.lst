@@ -1,0 +1,6 @@
+com\publicissapient\entity\EmailMessage.class
+com\publicissapient\service\EmailSendServiceImpl.class
+com\publicissapient\util\Message.class
+com\publicissapient\NotificationServiceApplication.class
+com\publicissapient\service\EmailSendService.class
+com\publicissapient\controller\EmailController.class

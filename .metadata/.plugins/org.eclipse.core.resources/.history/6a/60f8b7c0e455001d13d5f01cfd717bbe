@@ -1,0 +1,5 @@
+package com.publicissapient.service;
+
+public class RegistrationUserDetails {
+
+}

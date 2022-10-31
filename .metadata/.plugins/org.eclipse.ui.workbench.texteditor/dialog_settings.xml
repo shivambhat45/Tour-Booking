@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="post"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="post"/>
+			<item value="when"/>
+			<item value="9090"/>
+			<item value="userdto"/>
+			<item value="&quot;Accept&quot;"/>
+			<item value="&quot;Content-Type&quot;"/>
+			<item value="content-type"/>
+			<item value="booking"/>
+			<item value="list"/>
+			<item value="package"/>
+			<item value="booktour"/>
+			<item value="bookTour"/>
+			<item value="makebooking"/>
+			<item value="findby"/>
+			<item value="makepayment"/>
+		</list>
+		<list key="replacehistory">
+			<item value="8087"/>
+			<item value="ACCEPT"/>
+			<item value="CONTENTTYPE"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="34"/>
+		<item key="DIALOG_Y_ORIGIN" value="151"/>
+		<item key="DIALOG_WIDTH" value="511"/>
+		<item key="DIALOG_HEIGHT" value="523"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

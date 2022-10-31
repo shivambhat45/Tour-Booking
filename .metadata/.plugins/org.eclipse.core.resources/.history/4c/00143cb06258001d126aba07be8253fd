@@ -1,0 +1,10 @@
+package com.publicissapient.exception;
+
+public class UserAlreadyExistsException extends Exception {
+	
+	public UserAlreadyExistsException() {
+
+	}
+	
+
+}

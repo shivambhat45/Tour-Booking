@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;passWord&apos; in &apos;com.demo.entity.User&apos; to &apos;password&apos;&#x0D;&#x0A;- Original project: &apos;RegistrationService&apos;&#x0D;&#x0A;- Original element: &apos;com.demo.entity.User.passWord&apos;&#x0D;&#x0A;- Renamed element: &apos;com.demo.entity.User.password&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;passWord&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.demo.entity{User.java[User^passWord" name="password" references="true" setter="false" stamp="1665854014555" textual="false" version="1.0"/>
+</session>

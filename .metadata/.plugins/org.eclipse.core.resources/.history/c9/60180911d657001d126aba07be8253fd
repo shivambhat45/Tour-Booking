@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Payment Success</title>
+</head>
+
+<body>
+	<h1> Hello, Admin You have Successfully Created the Package. </h1>
+</body>
+
+</html>

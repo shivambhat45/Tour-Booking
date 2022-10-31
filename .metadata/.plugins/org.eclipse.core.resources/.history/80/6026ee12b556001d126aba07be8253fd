@@ -1,0 +1,5 @@
+package com.publicissapient.dto;
+
+public class LoginDto {
+
+}

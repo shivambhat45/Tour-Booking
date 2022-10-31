@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "",
+      "type": "com.publicissapient.ApiGatewayApplication$MyServerConfiguration",
+      "sourceType": "com.publicissapient.ApiGatewayApplication$MyServerConfiguration"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

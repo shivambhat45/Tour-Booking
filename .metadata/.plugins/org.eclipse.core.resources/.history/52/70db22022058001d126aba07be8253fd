@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Package Create</title>
+	<style>
+		body {
+			font-family: Calibri, Helvetica, sans-serif;
+			background-color: pink;
+		}
+
+		.container {
+			padding: 50px;
+			background-color: lightblue;
+		}
+
+		input[type=text],
+		input[type=password],
+		textarea {
+			width: 100%;
+			padding: 15px;
+			margin: 5px 0 22px 0;
+			display: inline-block;
+			border: none;
+			background: #f1f1f1;
+		}
+
+		input[type=text]:focus,
+		input[type=password]:focus {
+			background-color: orange;
+			outline: none;
+		}
+
+		div {
+			padding: 10px 0;
+		}
+
+		hr {
+			border: 1px solid #f1f1f1;
+			margin-bottom: 25px;
+		}
+
+		.registerbtn {
+			background-color: #4CAF50;
+			color: white;
+			padding: 16px 20px;
+			margin: 8px 0;
+			border: none;
+			cursor: pointer;
+			width: 100%;
+			opacity: 0.9;
+		}
+
+		.registerbtn:hover {
+			opacity: 1;
+		}
+	</style>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="/home">Tour-Booking</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+			aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+				<a class="nav-item nav-link active" href="/home">Home <span class="sr-only"></span></a>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Customer
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="home">Book tour (Click on Id of Package)</a>
+						<a class="dropdown-item" href="#">Another action</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Something else here</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Admin
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="listUsers">List Users</a>
+						<a class="dropdown-item" href="createPackage">Create Package</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="listBooking">List Booking</a>
+					</div>
+				</li>
+				<a class="nav-item nav-link" href="/logout">Logout</a>
+			</div>
+		</div>
+	</nav>
+
+	<form action="createPackage" method="POST">
+		<div class="container">
+			<center>
+				<h1> Package Creation Admin</h1>
+			</center>
+			<hr>
+			<label>Package Name: </label>
+			<input type="text" name="packageName" placeholder="Unique Package Name" size="15" required />
+			<label> Package Details: </label>
+			<input type="text" name="packageDetails" placeholder="Package Details" size="15" required />
+			<label> Package Fees: </label>
+			<input type="number" name="packageFees" placeholder="Package Fees" size="15" required />
+			<br>
+			<br>
+			<label> Package Facilities: </label>
+			<input type="text" name="packageFacilities" placeholder="" size="30" required />
+			<br>
+			<br>
+			<button type="submit" class="registerbtn">Create</button>
+	</form>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>

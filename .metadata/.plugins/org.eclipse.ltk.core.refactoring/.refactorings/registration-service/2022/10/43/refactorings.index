@@ -1,0 +1,23 @@
+1665947600108	Rename type 'CustomerUserDetailsService'
+1665949077808	Rename type 'UserDto'
+1665987783763	Rename package 'com.demo'
+1665987823905	Rename package 'com.demo.config'
+1665987837813	Rename package 'com.demo.controller'
+1665987846844	Rename package 'com.demo.dto'
+1665987861957	Rename package 'com.demo.entity'
+1665987876542	Rename package 'com.demo.service'
+1665987887663	Rename package 'com.demo.repository'
+1666004123428	Rename type 'UserDetailsService'
+1666020378411	Delete element
+1666020449846	Delete element
+1666035313228	Delete element
+1666035324149	Delete element
+1666035338438	Delete element
+1666035385335	Delete elements
+1666075038480	Delete element
+1666075041044	Delete element
+1666100150181	Copy package
+1666112037168	Copy compilation unit
+1666113268230	Copy compilation unit
+1666113412957	Copy compilation unit
+1666466444766	Copy compilation unit

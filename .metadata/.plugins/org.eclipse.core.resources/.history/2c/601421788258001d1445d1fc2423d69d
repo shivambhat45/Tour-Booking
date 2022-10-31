@@ -1,0 +1,117 @@
+package com.publicissapient.controller;
+
+import java.io.IOException;
+import java.util.List;
+
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.ParameterizedTypeReference;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.publicissapient.dto.PackageDto;
+import com.publicissapient.dto.SignUpDto;
+import com.publicissapient.dto.UserDto;
+
+@RestController
+public class RegistrationController {
+
+	@Autowired
+	RestTemplate restTemplate;
+
+	static final String ACCEPT="Accept";
+	static final String CONTENTTYPE="Content-Type";
+	
+	@GetMapping(path="/login")
+	public void homePage(HttpServletResponse httpServletResponse) throws IOException
+	{
+		httpServletResponse.sendRedirect("http://localhost:8082/login");
+	}
+
+	@GetMapping(path="/logout")
+	public void loginPage(HttpServletResponse httpServletResponse) throws IOException
+	{
+		httpServletResponse.sendRedirect("http://localhost:8082/logout");
+	}
+
+	
+	@GetMapping(path="/home")
+	public ModelAndView homePage()
+	{
+		ModelAndView mv = new ModelAndView();
+		
+		HttpHeaders headers = new HttpHeaders();
+		
+		headers.set(ACCEPT, MediaType.APPLICATION_JSON_VALUE);
+		
+        HttpEntity<List<PackageDto>> req = new HttpEntity<>(headers);
+        ResponseEntity<List<PackageDto>> response = restTemplate.exchange("http://localhost:9090/customer/listPackages", HttpMethod.GET, req,
+                new ParameterizedTypeReference<List<PackageDto>>() {});
+        
+        mv.addObject("packageList", response.getBody());
+        mv.setViewName("home");
+        return mv;
+	}
+
+	// List All Users
+	@GetMapping(path="/listUsers")
+	public ModelAndView listUsers()
+	{
+		ModelAndView mv = new ModelAndView();
+		
+		HttpHeaders headers = new HttpHeaders();
+		
+		headers.set(ACCEPT, MediaType.APPLICATION_JSON_VALUE);
+			
+        HttpEntity<List<UserDto>> req = new HttpEntity<>(headers);
+        ResponseEntity<List<UserDto>> response = restTemplate.exchange("http://localhost:9090/list", HttpMethod.GET, req,
+                new ParameterizedTypeReference<List<UserDto>>() {});
+        
+        mv.addObject("userList", response.getBody());
+        mv.setViewName("alluser");
+        return mv;
+	}
+	
+	@GetMapping(path = "/")
+	public ModelAndView registrationForm() {
+		ModelAndView mv = new ModelAndView();
+		mv.setViewName("register");
+		return mv;
+	}
+
+	@PostMapping(path = "/")
+	public ModelAndView saveUser(SignUpDto signUpDto) {
+		ModelAndView mv = new ModelAndView();
+
+		HttpHeaders headers = new HttpHeaders();
+
+		headers.set(ACCEPT, MediaType.APPLICATION_JSON_VALUE);
+		headers.set(CONTENTTYPE, MediaType.APPLICATION_JSON_VALUE);
+
+		HttpEntity<SignUpDto> req = new HttpEntity<>(signUpDto, headers);
+
+		ResponseEntity<UserDto> response = restTemplate.exchange("http://localhost:9090/registration", HttpMethod.POST,
+				req, UserDto.class);
+
+		if (response.getBody().getEmail()==null) {
+			mv.setViewName("error-registration");
+		} else {
+			mv.addObject("userInfo",response.getBody());
+			mv.setViewName("register-success");
+		}
+		return mv;
+
+	}
+	
+	
+
+}

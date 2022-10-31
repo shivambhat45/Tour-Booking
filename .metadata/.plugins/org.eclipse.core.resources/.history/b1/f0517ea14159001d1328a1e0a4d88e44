@@ -1,0 +1,77 @@
+version: '3'
+services:
+  eureka-server:
+    image: eureka-server:1.0
+    container_name: eureka-server
+    expose:
+    - "8761"
+    ports:
+    - 8761:8761
+
+  config-server:
+    image: config-server:1.0
+    container_name: config-server
+    ports:
+    - "8888:8888"
+    depends_on:
+      - eureka-server
+
+  registration-service:
+    image: registration-service:1.0
+    #container_name: registration-service
+    ports:
+    - "8082"
+    environment:
+      - JAVA_OPTS=
+           -DEUREKA_SERVER_URL=http://eureka-server:8761/eureka -DDB_USER=root -DDB_PASSWORD=Welcome1 -DJDBC_URL=jdbc:mariadb://mock-database.cgwik47ar0rn.us-east-1.rds.amazonaws.com:3306/registration_system -DCONFIG_SERVER_URL=http://config-server:8888/
+    depends_on:
+      - eureka-server
+      - config-server
+    links:
+        - eureka-server
+        - config-server
+
+  tour-service:
+    image: tour-service:1.0
+    # container_name: tour-service
+    ports:
+    - "8083"
+    environment:
+      - JAVA_OPTS=
+           -DEUREKA_SERVER_URL=http://eureka-server:8761/eureka -DDB_USER=root -DDB_PASSWORD=Welcome1 -DJDBC_URL=jdbc:mariadb://mock-database.cgwik47ar0rn.us-east-1.rds.amazonaws.com:3306/booking_system -DCONFIG_SERVER_URL=http://config-server:8888/
+    depends_on:
+      - eureka-server
+      - config-server
+    links:
+        - eureka-server
+        - config-server
+
+  notification-service:
+    image: appointment-service:1.0
+    # container_name: notification-service
+    ports:
+    - "8183"
+    environment:
+      - JAVA_OPTS=
+           -DEUREKA_SERVER_URL=http://eureka-server:8761/eureka -DCONFIG_SERVER_URL=http://config-server:8888/
+    depends_on:
+      - eureka-server
+      - config-server
+    links:
+        - eureka-server
+        - config-server
+
+  api-gateway:
+    image: api-gateway:2.7.4
+    # container_name: api-gateway
+    ports:
+    - "8087:8087"
+    environment:
+      - JAVA_OPTS=
+           -DEUREKA_SERVER_URL=http://eureka-server:8761/eureka 
+    depends_on:
+      - eureka-server
+      - config-server
+    links:
+        - eureka-server
+        - config-server

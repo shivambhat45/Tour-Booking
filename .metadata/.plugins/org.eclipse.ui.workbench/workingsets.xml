@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1665684698513_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1665684698545_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1667224075121_3" label="TourBooking" name="TourBooking">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/TourBooking" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tour-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/registration-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/api-gateway" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eureka-server" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/notification-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/config-server" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1665684701779_2" label="Window Working Set" name="Aggregate for window 1665684701779"/>
+</workingSetManager>

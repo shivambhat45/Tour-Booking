@@ -1,0 +1,24 @@
+package com.publicissapient.dto;
+
+public class RoleDto {
+	
+	private Integer roleId;
+
+	private String roleName;
+
+	private String roleDescription;
+
+	public RoleDto() {
+
+	}
+
+	public RoleDto(String roleName) {
+		super();
+		this.roleName = roleName;
+	}
+
+	public String getRoleName() {
+		return roleName;
+	}
+
+}

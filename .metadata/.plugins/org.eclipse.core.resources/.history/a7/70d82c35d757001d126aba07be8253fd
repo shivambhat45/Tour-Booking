@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Assign Staff</title>
+	<style>
+		body {
+			font-family: Calibri, Helvetica, sans-serif;
+			background-color: pink;
+		}
+
+		.container {
+			padding: 50px;
+			background-color: lightblue;
+		}
+
+		input[type=text],
+		input[type=password],
+		textarea {
+			width: 100%;
+			padding: 15px;
+			margin: 5px 0 22px 0;
+			display: inline-block;
+			border: none;
+			background: #f1f1f1;
+		}
+
+		input[type=text]:focus,
+		input[type=password]:focus {
+			background-color: orange;
+			outline: none;
+		}
+
+		div {
+			padding: 10px 0;
+		}
+
+		hr {
+			border: 1px solid #f1f1f1;
+			margin-bottom: 25px;
+		}
+
+		.registerbtn {
+			background-color: #4CAF50;
+			color: white;
+			padding: 16px 20px;
+			margin: 8px 0;
+			border: none;
+			cursor: pointer;
+			width: 100%;
+			opacity: 0.9;
+		}
+
+		.registerbtn:hover {
+			opacity: 1;
+		}
+	</style>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+</head>
+
+<body>
+	<form action="assignStaff" method="POST">
+		<div class="container">
+			<center>
+				<h1> Assign Staff Admin</h1>
+			</center>
+			<hr>
+			<label>Booking Id : </label>
+			<input type="number" name="bookingId" size="15" th:value=${bookingId} readonly />
+			<label>Staff Id : </label>
+			<input type="number" name="staffId" size="15" />
+			<div>
+				<br>
+				<br>
+
+				<button type="submit" class="registerbtn">Assign</button>
+	</form>
+</body>
+
+</html>

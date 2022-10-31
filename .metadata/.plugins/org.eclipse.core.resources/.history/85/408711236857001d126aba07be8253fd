@@ -1,0 +1,166 @@
+package com.publicissapient.dto;
+
+public class BookingDto {
+	
+	private Integer bookingId;
+	
+	private String bookingStatus;
+
+	private Integer totalPeople;
+
+	private String packageStandard;
+
+	private Double totalPrice;
+
+	private String paymentStatus;
+
+	private Integer staffId;
+
+	private String fromDate;
+
+	private String toDate;
+
+	private String totalDays;
+
+	private Integer customerId;
+
+	private Integer packageId;
+	
+	private Boolean bookingEnabled;
+	
+	
+	public BookingDto() {
+	}
+	
+	
+
+	public BookingDto(Integer bookingId, String bookingStatus, Integer totalPeople, String packageStandard,
+			Double totalPrice, String paymentStatus, Integer staffId, String fromDate, String toDate, String totalDays,
+			Integer customerId, Integer packageId, Boolean bookingEnabled) {
+		super();
+		this.bookingId = bookingId;
+		this.bookingStatus = bookingStatus;
+		this.totalPeople = totalPeople;
+		this.packageStandard = packageStandard;
+		this.totalPrice = totalPrice;
+		this.paymentStatus = paymentStatus;
+		this.staffId = staffId;
+		this.fromDate = fromDate;
+		this.toDate = toDate;
+		this.totalDays = totalDays;
+		this.customerId = customerId;
+		this.packageId = packageId;
+		this.bookingEnabled = bookingEnabled;
+	}
+
+
+
+	public Integer getBookingId() {
+		return bookingId;
+	}
+
+	public void setBookingId(Integer bookingId) {
+		this.bookingId = bookingId;
+	}
+
+	public String getBookingStatus() {
+		return bookingStatus;
+	}
+
+	public void setBookingStatus(String bookingStatus) {
+		this.bookingStatus = bookingStatus;
+	}
+
+	public Integer getTotalPeople() {
+		return totalPeople;
+	}
+
+	public void setTotalPeople(Integer totalPeople) {
+		this.totalPeople = totalPeople;
+	}
+
+	public String getPackageStandard() {
+		return packageStandard;
+	}
+
+	public void setPackageStandard(String packageStandard) {
+		this.packageStandard = packageStandard;
+	}
+
+	public Double getTotalPrice() {
+		return totalPrice;
+	}
+
+	public void setTotalPrice(Double totalPrice) {
+		this.totalPrice = totalPrice;
+	}
+
+	public String getPaymentStatus() {
+		return paymentStatus;
+	}
+
+	public void setPaymentStatus(String paymentStatus) {
+		this.paymentStatus = paymentStatus;
+	}
+
+	public Integer getStaffId() {
+		return staffId;
+	}
+
+	public void setStaffId(Integer staffId) {
+		this.staffId = staffId;
+	}
+
+	public String getFromDate() {
+		return fromDate;
+	}
+
+	public void setFromDate(String fromDate) {
+		this.fromDate = fromDate;
+	}
+
+	public String getToDate() {
+		return toDate;
+	}
+
+	public void setToDate(String toDate) {
+		this.toDate = toDate;
+	}
+
+	public String getTotalDays() {
+		return totalDays;
+	}
+
+	public void setTotalDays(String totalDays) {
+		this.totalDays = totalDays;
+	}
+
+	public Integer getCustomerId() {
+		return customerId;
+	}
+
+	public void setCustomerId(Integer customerId) {
+		this.customerId = customerId;
+	}
+
+	public Integer getPackageId() {
+		return packageId;
+	}
+
+	public void setPackageId(Integer packageId) {
+		this.packageId = packageId;
+	}
+
+	public Boolean getBookingEnabled() {
+		return bookingEnabled;
+	}
+
+	public void setBookingEnabled(Boolean bookingEnabled) {
+		this.bookingEnabled = bookingEnabled;
+	}
+
+	
+	
+	
+
+}

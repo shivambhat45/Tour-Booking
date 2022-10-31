@@ -1,0 +1,63 @@
+package com.publicissapient.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.publicissapient.dto.SignUpDto;
+import com.publicissapient.util.Message;
+
+@RestController
+public class RegistrationController {
+	
+	@Autowired
+	RestTemplate restTemplate;
+	
+	//View Registration Form
+	@GetMapping(path="/register")
+	public ModelAndView registrationForm()
+	{
+		ModelAndView mv=new ModelAndView();
+		mv.setViewName("register");
+		return mv;
+	}
+	
+	// Registration Submit
+	@PostMapping(path="/register")
+	public ModelAndView saveEmp(SignUpDto signUpDto)
+	{
+		ModelAndView mv =new ModelAndView();
+		
+		HttpHeaders headers = new HttpHeaders();
+		
+		headers.set("Accept", MediaType.APPLICATION_JSON_VALUE);
+		headers.set("Content-Type", MediaType.APPLICATION_JSON_VALUE);
+		
+        HttpEntity<SignUpDto> req = new HttpEntity<>(signUpDto,headers);
+        System.out.println(signUpDto.getEmail()+" "+signUpDto.getPassword()+" "+signUpDto.getUsername()+" "+ signUpDto.getRole());
+        ResponseEntity<String> response = restTemplate.exchange("http://localhost:9090/registration", HttpMethod.POST, req,
+        		String.class);
+        
+        System.out.println(response.getBody());
+        
+        if(response.getBody().contains("Already"))
+        {
+        	mv.setViewName("error");
+        }
+        else {
+        	mv.setViewName("register-success");
+	}
+        return mv;
+
+}
+
+}

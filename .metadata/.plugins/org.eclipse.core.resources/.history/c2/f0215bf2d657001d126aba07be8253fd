@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Payment Success</title>
+</head>
+
+<body>
+	<h1> Payment Successfull for booking Id <span th:text="${bookingId}"></span></h1>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+
+‚
+java:S3655K"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(¢ìñòüÿÿÿÿ8Æİ¼Á0Hî¡RMAJORZBUG
+~	java:S112A"FDefine and throw a dedicated exception instead of using a generic one.(ø¶¡Öıÿÿÿÿ8ä›íù¾0Hï¡RMAJORZ
+CODE_SMELL
+‚
+java:S36558"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(²ŠÁñşÿÿÿÿ8á¿–Â0Hğ¡RMAJORZBUG
+~
+java:S1192-"GDefine a constant instead of duplicating this literal "Accept" 3 times.(«êöë8ößÔ­À0Hñ¡RCRITICALZ
+CODE_SMELL
+‚
+java:S3655I"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Àåó‚úÿÿÿÿ8ößÔ­À0Hõ¡RMAJORZBUG

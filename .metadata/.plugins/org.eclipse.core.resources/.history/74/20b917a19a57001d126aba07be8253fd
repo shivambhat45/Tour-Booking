@@ -1,0 +1,118 @@
+package com.publicissapient.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
+
+import com.publicissapient.dto.BookingDto;
+import com.publicissapient.dto.EmailMessageDto;
+import com.publicissapient.dto.UserDto;
+import com.publicissapient.entity.Booking;
+import com.publicissapient.entity.Package;
+import com.publicissapient.exceptions.BookingNotFoundException;
+import com.publicissapient.repository.BookingRepository;
+import com.publicissapient.repository.PackageRepo;
+import com.publicissapient.util.Message;
+
+@Service
+public class CustomerServiceImpl implements CustomerService {
+
+	@Autowired
+	RestTemplate restTemplate;
+
+	@Autowired
+	PackageRepo packageRepository;
+
+	@Autowired
+	BookingRepository bookingRepository;
+
+	@Override
+	public List<Package> listAllPackages() {
+		return packageRepository.findAll();
+	}
+
+	@Override
+	public Booking makeBooking(BookingDto bookingDto) {
+
+//		1. Check Whether CustomerId and Package Exists or not
+// 		2. Load Balancer and client-name yet to add.
+
+		HttpHeaders headers = new HttpHeaders();
+		headers.set("Accept", MediaType.APPLICATION_JSON_VALUE);
+
+		HttpEntity<Void> req = new HttpEntity<>(headers);
+
+		ResponseEntity<UserDto> responseUser = restTemplate.exchange(
+				"http://registration-service/find/" + bookingDto.getCustomerId(), HttpMethod.GET, req, UserDto.class);
+
+		System.out.println(responseUser.getBody());
+
+		if (responseUser.getBody().getUsername() != null && packageRepository.existsById(bookingDto.getPackageId())) {
+			Booking booking = new Booking("Payment-Pending", bookingDto.getTotalPeople(),
+					bookingDto.getPackageStandard(),packageRepository.findById(bookingDto.getPackageId()).get().getPackageFees()*bookingDto.getTotalPeople(), "FALSE", 0, bookingDto.getFromDate(),
+					bookingDto.getToDate(), bookingDto.getTotalDays(), bookingDto.getCustomerId(),
+					bookingDto.getPackageId(), true);
+
+			return bookingRepository.save(booking);
+		}
+
+		else {
+			throw new RuntimeException("Either Customer or Package does not exists");
+		}
+
+	}
+
+	@Override
+	public Integer makePayment(Integer bookingId) throws BookingNotFoundException {
+		if (bookingRepository.existsById(bookingId) && bookingRepository.findById(bookingId).get().getPaymentStatus().equals("FALSE")) {
+			bookingRepository.makePayment("TRUE","Booking-Confirmed" ,bookingId);
+
+			// 1. Write query to fetch details
+			Booking bookingDetails = bookingRepository.findById(bookingId).get();
+			// 2. Call Notification Service
+			HttpHeaders headers = new HttpHeaders();
+			headers.set("Accept", MediaType.APPLICATION_JSON_VALUE);
+
+			HttpEntity<Void> req = new HttpEntity<>(headers);
+
+			ResponseEntity<UserDto> responseUser = restTemplate.exchange(
+					"http://registration-service/find/" + bookingDetails.getCustomerId(), HttpMethod.GET, req, UserDto.class);
+
+			sendNotification(responseUser.getBody().getEmail(),
+					"The Booking for the Customer " + responseUser.getBody().getFirstName() + " "
+							+ responseUser.getBody().getLastName() + " with " + bookingId + "is confirmed as payment has been done", "Booking Confirmed");
+			return 1;
+		} else {
+			throw new BookingNotFoundException();
+		}
+	}
+
+	@Override
+	public Integer sendNotification(String to, String subject, String message) {
+		EmailMessageDto emailData = new EmailMessageDto(to, subject, message);
+
+		HttpHeaders headers = new HttpHeaders();
+
+		headers.set("Accept", MediaType.APPLICATION_JSON_VALUE);
+		headers.set("Content-Type", MediaType.APPLICATION_JSON_VALUE);
+
+		HttpEntity<EmailMessageDto> req = new HttpEntity<>(emailData, headers);
+
+		ResponseEntity<Message> response = restTemplate.exchange("http://notification-service/email/send-email",
+				HttpMethod.POST, req, Message.class);
+
+		if (response.getBody().getStatus().equals("Email Sent")) {
+			return 1;
+		} else {
+			return 0;
+		}
+	}
+
+}

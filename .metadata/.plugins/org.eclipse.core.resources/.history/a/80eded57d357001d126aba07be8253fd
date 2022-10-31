@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Home Page</title>
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="/home">Tour-Booking</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+			aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+				<a class="nav-item nav-link active" href="/home">Home <span class="sr-only"></span></a>
+				<a class="nav-item nav-link" href="#">Customer</a>
+				<a class="nav-item nav-link" href="#">R</a>
+				<a class="nav-item nav-link" href="#">Login</a>
+				<a class="nav-item nav-link" href="/logout">Logout</a>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Customer
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Action</a>
+						<a class="dropdown-item" href="#">Another action</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Something else here</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Admin
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Action</a>
+						<a class="dropdown-item" href="#">Another action</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Something else here</a>
+					</div>
+				</li>
+			</div>
+		</div>
+	</nav>
+	<div>
+		<table class="table table-striped">
+			<tr>
+				<th>Package Id </th>
+				<th>Package Name</th>
+				<th>Package Details</th>
+				<th>Package Fees</th>
+				<th>Package Facilities</th>
+				<th>Update Package (Admin Only)</th>
+				<th>Delete Package (Admin Only)</th>
+			</tr>
+
+			<tr th:each="package:${packageList}">
+				<td><a th:href="@{bookTour(packageId=${package.packageId})}"><span
+							th:text="${package.packageId}"></span></td>
+				<td><span th:text="${package.packageName}"></span></td>
+				<td><span th:text="${package.packageDetails}"></span></td>
+				<td><span th:text="${package.packageFees}"></span></td>
+				<td><span th:text="${package.packageFacilities}"></span></td>
+				<td><a
+						th:href="@{updatePackage(packageName=${package.packageName},packageDetails=${package.packageDetails},packageFees=${package.packageFees},packageFacilities=${package.packageFacilities})}">Update
+				</td>
+				<td><a th:href="@{deletePackage(packageName=${package.packageName})}">Delete</td>
+			</tr>
+		</table>
+
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+
+</body>
+
+</html>

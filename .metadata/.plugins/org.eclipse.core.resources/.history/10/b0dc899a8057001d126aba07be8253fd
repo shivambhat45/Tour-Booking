@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Successfull Booking</title>
+</head>
+<body>
+	<h1> You have Sucessfully Booked the Package with packageId <span th:text="${bookingInfo.packageId}"> for <span th:text="${bookingInfo.totalPeople}"> people and the total cost is 
+	<span th:text="${bookingInfo.totalPrice}"> for making payment click the below link unil that your payment is pending.
+	Your Booking Id is <span th:text="${bookingInfo.totalPrice}"> keep it for your refernce.
+	</h1>
+</body>
+</html>
