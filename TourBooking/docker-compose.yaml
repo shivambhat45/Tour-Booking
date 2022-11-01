@@ -47,7 +47,7 @@ services:
         - config-server
 
   notification-service:
-    image: appointment-service:1.0
+    image: notification-service:1.0
     # container_name: notification-service
     ports:
     - "8084"

@@ -26,6 +26,11 @@ public class UserDto {
 
 	private Collection<RoleDto> roles;
 
+	public UserDto() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	public UserDto(Integer userId, String lastName, String firstName, Integer age, Integer phoneNo, String email,
 			String address, String gender, String username, String password, Collection<RoleDto> roles) {
 		super();

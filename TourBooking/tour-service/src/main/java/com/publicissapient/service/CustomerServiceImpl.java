@@ -3,6 +3,7 @@ package com.publicissapient.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -21,6 +22,9 @@ import com.publicissapient.repository.BookingRepository;
 import com.publicissapient.repository.PackageRepo;
 import com.publicissapient.util.Message;
 
+import static com.publicissapient.constants.Constants.ACCEPT;
+import static com.publicissapient.constants.Constants.CONTENT_TYPE;
+
 @Service
 public class CustomerServiceImpl implements CustomerService {
 
@@ -32,6 +36,12 @@ public class CustomerServiceImpl implements CustomerService {
 
 	@Autowired
 	BookingRepository bookingRepository;
+	
+	@Value("${registration:http://registration-service/find/}")
+	String baseUrl;
+	
+	@Value("${notification:http://notification-service/email/send-email}")
+	String notificationUrl;
 
 	@Override
 	public List<Package> listAllPackages() {
@@ -42,12 +52,12 @@ public class CustomerServiceImpl implements CustomerService {
 	public Booking makeBooking(BookingDto bookingDto) {
 
 		HttpHeaders headers = new HttpHeaders();
-		headers.set("Accept", MediaType.APPLICATION_JSON_VALUE);
+		headers.set(ACCEPT, MediaType.APPLICATION_JSON_VALUE);
 
 		HttpEntity<Void> req = new HttpEntity<>(headers);
 
 		ResponseEntity<UserDto> responseUser = restTemplate.exchange(
-				"http://registration-service/find/" + bookingDto.getCustomerId(), HttpMethod.GET, req, UserDto.class);
+				baseUrl + bookingDto.getCustomerId(), HttpMethod.GET, req, UserDto.class);
 
 		if ((responseUser.getBody().getUsername() != null)
 				&& (packageRepository.existsById(bookingDto.getPackageId()))) {
@@ -74,12 +84,12 @@ public class CustomerServiceImpl implements CustomerService {
 			bookingRepository.makePayment("TRUE", "Booking-Confirmed", bookingId);
 			Booking bookingDetails = bookingRepository.findById(bookingId).get();
 			HttpHeaders headers = new HttpHeaders();
-			headers.set("Accept", MediaType.APPLICATION_JSON_VALUE);
+			headers.set(ACCEPT, MediaType.APPLICATION_JSON_VALUE);
 
 			HttpEntity<Void> req = new HttpEntity<>(headers);
 
 			ResponseEntity<UserDto> responseUser = restTemplate.exchange(
-					"http://registration-service/find/" + bookingDetails.getCustomerId(), HttpMethod.GET, req,
+					baseUrl + bookingDetails.getCustomerId(), HttpMethod.GET, req,
 					UserDto.class);
 
 			sendNotification(responseUser.getBody().getEmail(),
@@ -99,13 +109,13 @@ public class CustomerServiceImpl implements CustomerService {
 
 		HttpHeaders headers = new HttpHeaders();
 
-		headers.set("Accept", MediaType.APPLICATION_JSON_VALUE);
-		headers.set("Content-Type", MediaType.APPLICATION_JSON_VALUE);
+		headers.set(ACCEPT, MediaType.APPLICATION_JSON_VALUE);
+		headers.set(CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE);
 
 		HttpEntity<EmailMessageDto> req = new HttpEntity<>(emailData, headers);
 
 		
-		ResponseEntity<Message> response = restTemplate.exchange("http://notification-service/email/send-email",
+		ResponseEntity<Message> response = restTemplate.exchange(notificationUrl,
 				HttpMethod.POST, req, Message.class);
 		
 		if (response.getBody().getStatus().equals("Email Sent")) {

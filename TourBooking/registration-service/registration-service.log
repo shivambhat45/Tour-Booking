@@ -8,3 +8,1253 @@
 2022-11-01 00:35:04.450  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2022-11-01 00:40:04.464  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2022-11-01 00:45:04.465  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 00:50:04.473  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 00:55:04.484  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 01:00:04.486  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 01:05:04.495  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 01:10:04.499  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 01:15:04.510  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 01:20:04.520  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 01:25:04.532  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 01:30:04.532  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 01:35:04.543  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 01:40:04.558  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 01:45:04.569  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 01:50:04.569  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 01:55:04.571  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 02:00:04.576  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 02:05:04.590  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 02:10:04.605  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 02:15:04.611  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 02:20:04.614  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 02:25:04.626  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 02:30:04.629  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 02:31:20.213 DEBUG 22720 --- [http-nio-8082-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /registration
+2022-11-01 02:31:20.232 DEBUG 22720 --- [http-nio-8082-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-11-01 02:31:20.259 DEBUG 22720 --- [http-nio-8082-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2022-11-01 02:31:20.349 DEBUG 22720 --- [http-nio-8082-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /registration] with attributes [permitAll]
+2022-11-01 02:31:20.350 DEBUG 22720 --- [http-nio-8082-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /registration
+2022-11-01 02:31:21.567 TRACE 22720 --- [http-nio-8082-exec-4] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [arun]
+2022-11-01 02:31:21.600 TRACE 22720 --- [http-nio-8082-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_2_] : [INTEGER]) - [3]
+2022-11-01 02:31:21.613 TRACE 22720 --- [http-nio-8082-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address2_2_] : [VARCHAR]) - [Jamnagar]
+2022-11-01 02:31:21.614 TRACE 22720 --- [http-nio-8082-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age3_2_] : [INTEGER]) - [24]
+2022-11-01 02:31:21.614 TRACE 22720 --- [http-nio-8082-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_2_] : [VARCHAR]) - [efg@gmail.com]
+2022-11-01 02:31:21.615 TRACE 22720 --- [http-nio-8082-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na5_2_] : [VARCHAR]) - [Gaurav]
+2022-11-01 02:31:21.616 TRACE 22720 --- [http-nio-8082-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([gender6_2_] : [VARCHAR]) - [male]
+2022-11-01 02:31:21.617 TRACE 22720 --- [http-nio-8082-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_2_] : [VARCHAR]) - [Sahani]
+2022-11-01 02:31:21.617 TRACE 22720 --- [http-nio-8082-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password8_2_] : [VARCHAR]) - [$2a$10$FHOOKcEsO/bTmcMkEmwiuuWV53j1YlTTj3B8T1DGnlc9r/YjCJ1WS]
+2022-11-01 02:31:21.617 TRACE 22720 --- [http-nio-8082-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone_no9_2_] : [INTEGER]) - [87654321]
+2022-11-01 02:31:21.619 TRACE 22720 --- [http-nio-8082-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_2_] : [VARCHAR]) - [arun]
+2022-11-01 02:31:21.651 TRACE 22720 --- [http-nio-8082-exec-4] org.hibernate.type.CollectionType        : Created collection wrapper: [com.publicissapient.entity.User.roles#3]
+2022-11-01 02:31:21.691 TRACE 22720 --- [http-nio-8082-exec-4] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [3]
+2022-11-01 02:31:21.702 TRACE 22720 --- [http-nio-8082-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_1_] : [INTEGER]) - [2]
+2022-11-01 02:31:21.705 TRACE 22720 --- [http-nio-8082-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_des2_0_1_] : [VARCHAR]) - [Staff]
+2022-11-01 02:31:21.705 TRACE 22720 --- [http-nio-8082-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_nam3_0_1_] : [VARCHAR]) - [STAFF]
+2022-11-01 02:31:21.708 TRACE 22720 --- [http-nio-8082-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_1_0_] : [INTEGER]) - [3]
+2022-11-01 02:31:21.708 TRACE 22720 --- [http-nio-8082-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_1_0_] : [INTEGER]) - [2]
+2022-11-01 02:31:21.803 DEBUG 22720 --- [http-nio-8082-exec-4] w.c.HttpSessionSecurityContextRepository : Did not store anonymous SecurityContext
+2022-11-01 02:31:21.827 DEBUG 22720 --- [http-nio-8082-exec-4] w.c.HttpSessionSecurityContextRepository : Did not store anonymous SecurityContext
+2022-11-01 02:31:21.828 DEBUG 22720 --- [http-nio-8082-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-11-01 02:31:38.296 DEBUG 22720 --- [http-nio-8082-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /registration
+2022-11-01 02:31:38.297 DEBUG 22720 --- [http-nio-8082-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-11-01 02:31:38.298 DEBUG 22720 --- [http-nio-8082-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2022-11-01 02:31:38.299 DEBUG 22720 --- [http-nio-8082-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /registration] with attributes [permitAll]
+2022-11-01 02:31:38.299 DEBUG 22720 --- [http-nio-8082-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /registration
+2022-11-01 02:31:38.310 TRACE 22720 --- [http-nio-8082-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [aruneshwar]
+2022-11-01 02:31:38.352 TRACE 22720 --- [http-nio-8082-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [STAFF]
+2022-11-01 02:31:38.354 TRACE 22720 --- [http-nio-8082-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_] : [INTEGER]) - [2]
+2022-11-01 02:31:38.355 TRACE 22720 --- [http-nio-8082-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_des2_0_] : [VARCHAR]) - [Staff]
+2022-11-01 02:31:38.355 TRACE 22720 --- [http-nio-8082-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_nam3_0_] : [VARCHAR]) - [STAFF]
+2022-11-01 02:31:38.820 TRACE 22720 --- [http-nio-8082-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [STAFF]
+2022-11-01 02:31:38.821 TRACE 22720 --- [http-nio-8082-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_] : [INTEGER]) - [2]
+2022-11-01 02:31:39.075 TRACE 22720 --- [http-nio-8082-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Jamnagar]
+2022-11-01 02:31:39.076 TRACE 22720 --- [http-nio-8082-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [INTEGER] - [24]
+2022-11-01 02:31:39.077 TRACE 22720 --- [http-nio-8082-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [efg@gmail.com]
+2022-11-01 02:31:39.077 TRACE 22720 --- [http-nio-8082-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [Gaurav]
+2022-11-01 02:31:39.077 TRACE 22720 --- [http-nio-8082-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [male]
+2022-11-01 02:31:39.078 TRACE 22720 --- [http-nio-8082-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [VARCHAR] - [Sahani]
+2022-11-01 02:31:39.078 TRACE 22720 --- [http-nio-8082-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [7] as [VARCHAR] - [$2a$10$jXob8G2mqOJ6pxXoS0wYuu2H7ioTczdfsMivVQqTKNP4mHlpflbme]
+2022-11-01 02:31:39.078 TRACE 22720 --- [http-nio-8082-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [8] as [INTEGER] - [87654321]
+2022-11-01 02:31:39.079 TRACE 22720 --- [http-nio-8082-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [9] as [VARCHAR] - [aruneshwar]
+2022-11-01 02:31:39.243 TRACE 22720 --- [http-nio-8082-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [27]
+2022-11-01 02:31:39.243 TRACE 22720 --- [http-nio-8082-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [INTEGER] - [2]
+2022-11-01 02:31:39.276 DEBUG 22720 --- [http-nio-8082-exec-7] w.c.HttpSessionSecurityContextRepository : Did not store anonymous SecurityContext
+2022-11-01 02:31:39.280 DEBUG 22720 --- [http-nio-8082-exec-7] w.c.HttpSessionSecurityContextRepository : Did not store anonymous SecurityContext
+2022-11-01 02:31:39.280 DEBUG 22720 --- [http-nio-8082-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-11-01 02:35:04.638  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 09:26:01.163  WARN 22720 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h49m31s171ms388µs500ns).
+2022-11-01 09:39:05.606  WARN 22720 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m4s427ms650µs800ns).
+2022-11-01 09:40:40.218  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 09:45:40.231  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 09:50:40.237  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 09:55:40.245  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 10:00:40.247  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 10:05:40.260  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 10:10:40.272  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 10:15:40.288  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 10:20:40.304  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 10:25:40.320  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 10:30:40.330  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 10:35:40.342  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 10:40:40.351  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 10:45:40.353  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 10:50:40.367  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 10:55:40.372  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 11:00:40.389  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 11:05:40.392  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 11:10:40.399  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 11:15:40.416  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 11:20:40.431  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 11:25:40.446  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 11:30:40.454  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 11:35:40.461  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 11:40:40.465  INFO 22720 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 11:41:10.614  INFO 22720 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:155)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1135)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1016)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1531)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1498)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 22 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 35 more
+
+2022-11-01 11:41:10.614  INFO 22720 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/REGISTRATION-SERVICE/host.docker.internal:registration-service:8082": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/REGISTRATION-SERVICE/host.docker.internal:registration-service:8082": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 19 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 32 more
+
+2022-11-01 11:41:10.616  WARN 22720 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-11-01 11:41:10.616  WARN 22720 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/REGISTRATION-SERVICE/host.docker.internal:registration-service:8082": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-11-01 11:41:11.455  INFO 22720 --- [RMI TCP Connection(490)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-11-01 11:41:11.497  INFO 22720 --- [RMI TCP Connection(490)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application REGISTRATION-SERVICE with eureka with status DOWN
+2022-11-01 11:41:11.499  INFO 22720 --- [RMI TCP Connection(490)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1667283071499, current=DOWN, previous=UP]
+2022-11-01 11:41:11.501  INFO 22720 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_REGISTRATION-SERVICE/host.docker.internal:registration-service:8082: registering service...
+2022-11-01 11:41:12.185  INFO 22720 --- [RMI TCP Connection(490)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-01 11:41:12.204  INFO 22720 --- [RMI TCP Connection(490)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-01 11:41:12.294  INFO 22720 --- [RMI TCP Connection(490)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-01 11:41:12.308 TRACE 22720 --- [RMI TCP Connection(490)-127.0.0.1] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@43cc7951] for TypeConfiguration
+2022-11-01 11:41:12.309 DEBUG 22720 --- [RMI TCP Connection(490)-127.0.0.1] o.h.type.spi.TypeConfiguration$Scope     : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@74030208] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@43cc7951]
+2022-11-01 11:41:12.333  INFO 22720 --- [RMI TCP Connection(490)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-01 11:41:12.348  INFO 22720 --- [RMI TCP Connection(490)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-01 11:41:12.354  INFO 22720 --- [RMI TCP Connection(490)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-11-01 11:41:14.725  INFO 22720 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/REGISTRATION-SERVICE/host.docker.internal:registration-service:8082": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/REGISTRATION-SERVICE/host.docker.internal:registration-service:8082": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 20 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 33 more
+
+2022-11-01 11:41:14.725  INFO 22720 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:155)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1135)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1016)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1531)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1498)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 23 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 36 more
+
+2022-11-01 11:41:14.726  WARN 22720 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/REGISTRATION-SERVICE/host.docker.internal:registration-service:8082": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-11-01 11:41:14.726  WARN 22720 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-11-01 11:41:14.727  INFO 22720 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_REGISTRATION-SERVICE/host.docker.internal:registration-service:8082 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1135)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1016)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1531)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1498)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2022-11-01 11:41:14.773 ERROR 22720 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_REGISTRATION-SERVICE/host.docker.internal:registration-service:8082 - was unable to send heartbeat!
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457) ~[eureka-client-1.10.17.jar:1.10.17]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-11-01 11:41:15.364  INFO 22720 --- [RMI TCP Connection(490)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-11-01 11:41:15.615  INFO 22720 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/REGISTRATION-SERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/REGISTRATION-SERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 22 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 35 more
+
+2022-11-01 11:41:15.617  WARN 22720 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/REGISTRATION-SERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-11-01 11:41:15.619  WARN 22720 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_REGISTRATION-SERVICE/host.docker.internal:registration-service:8082 - registration failed Cannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-1.10.17.jar:1.10.17]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-11-01 11:41:15.621  WARN 22720 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-1.10.17.jar:1.10.17]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-11-01 11:41:19.498  INFO 22720 --- [RMI TCP Connection(490)-127.0.0.1] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/REGISTRATION-SERVICE/host.docker.internal:registration-service:8082": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/REGISTRATION-SERVICE/host.docker.internal:registration-service:8082": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1163)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1156)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:260)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:562)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:796)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:677)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:676)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 77 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 90 more
+
+2022-11-01 11:41:19.500  WARN 22720 --- [RMI TCP Connection(490)-127.0.0.1] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/REGISTRATION-SERVICE/host.docker.internal:registration-service:8082": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-11-01 11:41:19.506 ERROR 22720 --- [RMI TCP Connection(490)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_REGISTRATION-SERVICE/host.docker.internal:registration-service:8082 - de-registration failedCannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948) ~[eureka-client-1.10.17.jar:1.10.17]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390) ~[spring-cloud-context-3.1.4.jar:3.1.4]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136) ~[spring-cloud-context-3.1.4.jar:3.1.4]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1163) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1156) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) ~[spring-boot-2.7.4.jar:2.7.4]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:260) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(Native Method) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:562) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:796) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:677) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(Native Method) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:676) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-11-01 11:41:19.529  INFO 22720 --- [RMI TCP Connection(490)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-11-01 11:52:31.000  INFO 32192 --- [main] c.p.RegistrationServiceApplication       : Starting RegistrationServiceApplication using Java 11 on WKWIN3623033 with PID 32192 (C:\Users\shibhat2\Training\Mock-Project\Tour-Booking-Mock-Project\TourBooking\registration-service\target\classes started by shibhat2 in C:\Users\shibhat2\Training\Mock-Project\Tour-Booking-Mock-Project\TourBooking\registration-service)
+2022-11-01 11:52:31.009  INFO 32192 --- [main] c.p.RegistrationServiceApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 11:52:31.096  INFO 32192 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888/
+2022-11-01 11:52:31.096  INFO 32192 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=registration-service, profiles=[default], label=null, version=93c00cfe22933bcaf3982b1626bb5c15fbcccd0a, state=null
+2022-11-01 11:52:33.186  INFO 32192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-01 11:52:33.503  INFO 32192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 300 ms. Found 2 JPA repository interfaces.
+2022-11-01 11:52:34.020  INFO 32192 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=961cf91f-3729-36c7-9479-b91466908983
+2022-11-01 11:52:34.945  INFO 32192 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-11-01 11:52:34.966  INFO 32192 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 11:52:34.967  INFO 32192 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-01 11:52:35.300  INFO 32192 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 11:52:35.300  INFO 32192 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4201 ms
+2022-11-01 11:52:35.838  INFO 32192 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-01 11:52:35.986  INFO 32192 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-11-01 11:52:36.300  INFO 32192 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-01 11:52:36.374 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@36f05595
+2022-11-01 11:52:36.375 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@36f05595
+2022-11-01 11:52:36.375 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@36f05595
+2022-11-01 11:52:36.377 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@2b3abeeb
+2022-11-01 11:52:36.379 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.TrueFalseType@62a41279
+2022-11-01 11:52:36.381 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.YesNoType@2e66f1bd
+2022-11-01 11:52:36.384 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@7a47f0be
+2022-11-01 11:52:36.384 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@7a47f0be
+2022-11-01 11:52:36.384 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@7a47f0be
+2022-11-01 11:52:36.386 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.CharacterType@3dcbbbc
+2022-11-01 11:52:36.386 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.CharacterType@3dcbbbc
+2022-11-01 11:52:36.386 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@3dcbbbc
+2022-11-01 11:52:36.388 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@2e013ba1
+2022-11-01 11:52:36.389 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@2e013ba1
+2022-11-01 11:52:36.389 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@2e013ba1
+2022-11-01 11:52:36.391 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.IntegerType@625db0e0
+2022-11-01 11:52:36.391 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.IntegerType@625db0e0
+2022-11-01 11:52:36.392 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@625db0e0
+2022-11-01 11:52:36.394 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@c697186
+2022-11-01 11:52:36.394 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@c697186
+2022-11-01 11:52:36.395 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.LongType@c697186
+2022-11-01 11:52:36.398 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@516b84d1
+2022-11-01 11:52:36.398 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@516b84d1
+2022-11-01 11:52:36.398 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@516b84d1
+2022-11-01 11:52:36.401 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@554d040d
+2022-11-01 11:52:36.401 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@554d040d
+2022-11-01 11:52:36.401 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@554d040d
+2022-11-01 11:52:36.402 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@1be52113
+2022-11-01 11:52:36.402 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@1be52113
+2022-11-01 11:52:36.404 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@746fd19b
+2022-11-01 11:52:36.405 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@746fd19b
+2022-11-01 11:52:36.405 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.StringType@15c1b543
+2022-11-01 11:52:36.405 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.StringType@15c1b543
+2022-11-01 11:52:36.406 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@622ba721
+2022-11-01 11:52:36.408 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@73316a0a
+2022-11-01 11:52:36.410 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.UrlType@4d0b276e
+2022-11-01 11:52:36.410 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.UrlType@4d0b276e
+2022-11-01 11:52:36.411 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> org.hibernate.type.DurationType@240f2efd
+2022-11-01 11:52:36.411 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> org.hibernate.type.DurationType@240f2efd
+2022-11-01 11:52:36.413 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Instant -> org.hibernate.type.InstantType@1b841e7d
+2022-11-01 11:52:36.414 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Instant -> org.hibernate.type.InstantType@1b841e7d
+2022-11-01 11:52:36.415 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@33a3e5db
+2022-11-01 11:52:36.416 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@33a3e5db
+2022-11-01 11:52:36.419 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDate -> org.hibernate.type.LocalDateType@1eda309d
+2022-11-01 11:52:36.419 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@1eda309d
+2022-11-01 11:52:36.421 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@602c167e
+2022-11-01 11:52:36.422 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@602c167e
+2022-11-01 11:52:36.424 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@60861e5d
+2022-11-01 11:52:36.424 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@60861e5d
+2022-11-01 11:52:36.426 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@b3042ed
+2022-11-01 11:52:36.426 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@b3042ed
+2022-11-01 11:52:36.429 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@5d68be4f
+2022-11-01 11:52:36.430 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@5d68be4f
+2022-11-01 11:52:36.432 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.DateType@6f7c9755
+2022-11-01 11:52:36.432 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.DateType@6f7c9755
+2022-11-01 11:52:36.434 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.TimeType@29db008c
+2022-11-01 11:52:36.434 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@29db008c
+2022-11-01 11:52:36.436 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.TimestampType@72d0196d
+2022-11-01 11:52:36.436 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@72d0196d
+2022-11-01 11:52:36.436 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@72d0196d
+2022-11-01 11:52:36.439 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@490d9c41
+2022-11-01 11:52:36.440 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.CalendarType@3a9c92b5
+2022-11-01 11:52:36.441 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@3a9c92b5
+2022-11-01 11:52:36.441 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@3a9c92b5
+2022-11-01 11:52:36.442 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@43df1377
+2022-11-01 11:52:36.443 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@4d8522ff
+2022-11-01 11:52:36.444 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.LocaleType@798b36fd
+2022-11-01 11:52:36.445 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@798b36fd
+2022-11-01 11:52:36.447 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.CurrencyType@5521407f
+2022-11-01 11:52:36.448 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@5521407f
+2022-11-01 11:52:36.450 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.TimeZoneType@7c56c911
+2022-11-01 11:52:36.450 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@7c56c911
+2022-11-01 11:52:36.452 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.ClassType@443253a6
+2022-11-01 11:52:36.452 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@443253a6
+2022-11-01 11:52:36.453 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@61becbcf
+2022-11-01 11:52:36.454 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@61becbcf
+2022-11-01 11:52:36.455 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@6a07e6ca
+2022-11-01 11:52:36.457 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BinaryType@7adff6cb
+2022-11-01 11:52:36.458 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BinaryType@7adff6cb
+2022-11-01 11:52:36.458 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BinaryType@7adff6cb
+2022-11-01 11:52:36.460 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@5a537a16
+2022-11-01 11:52:36.460 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@5a537a16
+2022-11-01 11:52:36.460 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@5a537a16
+2022-11-01 11:52:36.463 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.RowVersionType@e2f6a45
+2022-11-01 11:52:36.464 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.ImageType@36453773
+2022-11-01 11:52:36.466 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.CharArrayType@6c56fff
+2022-11-01 11:52:36.466 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.CharArrayType@6c56fff
+2022-11-01 11:52:36.466 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.CharArrayType@6c56fff
+2022-11-01 11:52:36.467 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@3cc6f036
+2022-11-01 11:52:36.467 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@3cc6f036
+2022-11-01 11:52:36.468 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@3cc6f036
+2022-11-01 11:52:36.468 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.TextType@44618fe6
+2022-11-01 11:52:36.468 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.NTextType@123c48d0
+2022-11-01 11:52:36.471 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BlobType@3bf26810
+2022-11-01 11:52:36.472 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@3bf26810
+2022-11-01 11:52:36.473 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@5981f2c6
+2022-11-01 11:52:36.475 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.ClobType@3855b27e
+2022-11-01 11:52:36.475 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@3855b27e
+2022-11-01 11:52:36.477 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.NClobType@1ed52f44
+2022-11-01 11:52:36.478 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@1ed52f44
+2022-11-01 11:52:36.478 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@46a97805
+2022-11-01 11:52:36.479 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@78e97d4d
+2022-11-01 11:52:36.482 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.SerializableType@11a67420
+2022-11-01 11:52:36.489 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.ObjectType@3c6b300a
+2022-11-01 11:52:36.489 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@3c6b300a
+2022-11-01 11:52:36.490 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@3e55eeb9
+2022-11-01 11:52:36.490 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@44a13699
+2022-11-01 11:52:36.490 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@1253b822
+2022-11-01 11:52:36.491 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@127d2aee
+2022-11-01 11:52:36.491 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@3cc2e3e
+2022-11-01 11:52:36.491 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@4e14d520
+2022-11-01 11:52:36.491 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@4189e668
+2022-11-01 11:52:36.491 DEBUG 32192 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@3a589eed
+2022-11-01 11:52:36.583  INFO 32192 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-01 11:52:36.750  INFO 32192 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-01 11:52:36.821  INFO 32192 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB106Dialect
+2022-11-01 11:52:36.889 DEBUG 32192 --- [main] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@4aea57dc] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@66abc325]
+2022-11-01 11:52:37.334 DEBUG 32192 --- [main] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@4aea57dc] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@2e5c7cd5]
+2022-11-01 11:52:38.033  INFO 32192 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-01 11:52:38.046 TRACE 32192 --- [main] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@2e5c7cd5] for TypeConfiguration
+2022-11-01 11:52:38.050  INFO 32192 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-01 11:52:38.316  WARN 32192 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-01 11:52:39.154 DEBUG 32192 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression [permitAll] for Ant [pattern='/registration**']
+2022-11-01 11:52:39.156 DEBUG 32192 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression [permitAll] for Ant [pattern='/find/**']
+2022-11-01 11:52:39.156 DEBUG 32192 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression [permitAll] for Ant [pattern='/list']
+2022-11-01 11:52:39.157 DEBUG 32192 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression [authenticated] for Ant [pattern='/']
+2022-11-01 11:52:39.157 DEBUG 32192 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression [permitAll] for any request
+2022-11-01 11:52:39.180  INFO 32192 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2e268c19, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@baf87a5, org.springframework.security.web.context.SecurityContextPersistenceFilter@6abbdcde, org.springframework.security.web.header.HeaderWriterFilter@3ad5f99, org.springframework.security.web.authentication.logout.LogoutFilter@76a86677, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2605433, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@279e4506, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@42c9c0a1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@281a54b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a10407e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52238861, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2643c33f, org.springframework.security.web.session.SessionManagementFilter@457dc809, org.springframework.security.web.access.ExceptionTranslationFilter@6b9b9cb9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6cb5a64d]
+2022-11-01 11:52:43.180  INFO 32192 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-11-01 11:52:43.318  INFO 32192 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 11:52:43.321  INFO 32192 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 11:52:43.338  INFO 32192 --- [RMI TCP Connection(3)-127.0.0.1] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-11-01 11:52:43.362  INFO 32192 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 41 ms
+2022-11-01 11:52:43.379  WARN 32192 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-11-01 11:52:43.554  INFO 32192 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-11-01 11:52:43.637  INFO 32192 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-11-01 11:52:43.645  INFO 32192 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 11:52:43.692  INFO 32192 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-11-01 11:52:43.692  INFO 32192 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-11-01 11:52:43.692  INFO 32192 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-11-01 11:52:43.692  INFO 32192 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-11-01 11:52:43.692  INFO 32192 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-11-01 11:52:43.692  INFO 32192 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-11-01 11:52:43.692  INFO 32192 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-11-01 11:52:44.204  INFO 32192 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-11-01 11:52:44.209  INFO 32192 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-11-01 11:52:44.215  INFO 32192 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-11-01 11:52:44.224  INFO 32192 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1667283764221 with initial instances count: 0
+2022-11-01 11:52:44.227  INFO 32192 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application REGISTRATION-SERVICE with eureka with status UP
+2022-11-01 11:52:44.228  INFO 32192 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1667283764228, current=UP, previous=STARTING]
+2022-11-01 11:52:44.232  INFO 32192 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_REGISTRATION-SERVICE/host.docker.internal:registration-service:8082: registering service...
+2022-11-01 11:52:44.290  INFO 32192 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-11-01 11:52:44.292  INFO 32192 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2022-11-01 11:52:44.423  INFO 32192 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_REGISTRATION-SERVICE/host.docker.internal:registration-service:8082 - registration status: 204
+2022-11-01 11:52:45.058  INFO 32192 --- [main] c.p.RegistrationServiceApplication       : Started RegistrationServiceApplication in 29.084 seconds (JVM running for 31.43)
+2022-11-01 11:53:14.216  INFO 32192 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-11-01 11:53:14.217  INFO 32192 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-11-01 11:53:14.218  INFO 32192 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-11-01 11:53:14.219  INFO 32192 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-11-01 11:53:14.220  INFO 32192 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-11-01 11:53:14.220  INFO 32192 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2022-11-01 11:53:14.221  INFO 32192 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-11-01 11:53:14.256  INFO 32192 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-11-01 11:54:08.827 DEBUG 32192 --- [http-nio-8082-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /find/1
+2022-11-01 11:54:08.841 DEBUG 32192 --- [http-nio-8082-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-11-01 11:54:08.844 DEBUG 32192 --- [http-nio-8082-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2022-11-01 11:54:08.852 DEBUG 32192 --- [http-nio-8082-exec-1] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /find/1] with attributes [permitAll]
+2022-11-01 11:54:08.853 DEBUG 32192 --- [http-nio-8082-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /find/1
+2022-11-01 11:54:08.884 DEBUG 32192 --- [http-nio-8082-exec-1] w.c.HttpSessionSecurityContextRepository : Did not store anonymous SecurityContext
+2022-11-01 11:54:08.886  WARN 32192 --- [http-nio-8082-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-11-01 11:54:08.887 DEBUG 32192 --- [http-nio-8082-exec-1] w.c.HttpSessionSecurityContextRepository : Did not store anonymous SecurityContext
+2022-11-01 11:54:08.887 DEBUG 32192 --- [http-nio-8082-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-11-01 11:54:08.897 DEBUG 32192 --- [http-nio-8082-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /error
+2022-11-01 11:54:08.898 DEBUG 32192 --- [http-nio-8082-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-11-01 11:54:08.900 DEBUG 32192 --- [http-nio-8082-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2022-11-01 11:54:08.901 DEBUG 32192 --- [http-nio-8082-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /error
+2022-11-01 11:54:08.957 DEBUG 32192 --- [http-nio-8082-exec-1] w.c.HttpSessionSecurityContextRepository : Did not store anonymous SecurityContext
+2022-11-01 11:54:08.966 DEBUG 32192 --- [http-nio-8082-exec-1] w.c.HttpSessionSecurityContextRepository : Did not store anonymous SecurityContext
+2022-11-01 11:54:08.967 DEBUG 32192 --- [http-nio-8082-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-11-01 11:54:15.137 DEBUG 32192 --- [http-nio-8082-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /find/1
+2022-11-01 11:54:15.138 DEBUG 32192 --- [http-nio-8082-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-11-01 11:54:15.138 DEBUG 32192 --- [http-nio-8082-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2022-11-01 11:54:15.139 DEBUG 32192 --- [http-nio-8082-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /find/1] with attributes [permitAll]
+2022-11-01 11:54:15.139 DEBUG 32192 --- [http-nio-8082-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /find/1
+2022-11-01 11:54:15.467 TRACE 32192 --- [http-nio-8082-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [1]
+2022-11-01 11:54:15.481 TRACE 32192 --- [http-nio-8082-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([col_0_0_] : [BIGINT]) - [1]
+2022-11-01 11:54:15.509 TRACE 32192 --- [http-nio-8082-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [1]
+2022-11-01 11:54:15.517 TRACE 32192 --- [http-nio-8082-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_2_] : [INTEGER]) - [1]
+2022-11-01 11:54:15.524 TRACE 32192 --- [http-nio-8082-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address2_2_0_] : [VARCHAR]) - [Jamnagar]
+2022-11-01 11:54:15.525 TRACE 32192 --- [http-nio-8082-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age3_2_0_] : [INTEGER]) - [24]
+2022-11-01 11:54:15.525 TRACE 32192 --- [http-nio-8082-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_2_0_] : [VARCHAR]) - [efg@gmail.com]
+2022-11-01 11:54:15.525 TRACE 32192 --- [http-nio-8082-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na5_2_0_] : [VARCHAR]) - [Gaurav]
+2022-11-01 11:54:15.526 TRACE 32192 --- [http-nio-8082-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([gender6_2_0_] : [VARCHAR]) - [male]
+2022-11-01 11:54:15.527 TRACE 32192 --- [http-nio-8082-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_2_0_] : [VARCHAR]) - [Sahani]
+2022-11-01 11:54:15.527 TRACE 32192 --- [http-nio-8082-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password8_2_0_] : [VARCHAR]) - [$2a$10$jaaF5BFDGclJ49WJSZVEQOLLeeaMYRsHU92M2wXH44k5cReyu/Bv.]
+2022-11-01 11:54:15.529 TRACE 32192 --- [http-nio-8082-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone_no9_2_0_] : [INTEGER]) - [87654321]
+2022-11-01 11:54:15.529 TRACE 32192 --- [http-nio-8082-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_2_0_] : [VARCHAR]) - [gaurav]
+2022-11-01 11:54:15.532 TRACE 32192 --- [http-nio-8082-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_des2_0_2_] : [VARCHAR]) - [null]
+2022-11-01 11:54:15.532 TRACE 32192 --- [http-nio-8082-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_nam3_0_2_] : [VARCHAR]) - [CUSTOMER]
+2022-11-01 11:54:15.534 TRACE 32192 --- [http-nio-8082-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_1_1_] : [INTEGER]) - [1]
+2022-11-01 11:54:15.547 TRACE 32192 --- [http-nio-8082-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_1_1_] : [INTEGER]) - [1]
+2022-11-01 11:54:15.573 DEBUG 32192 --- [http-nio-8082-exec-3] w.c.HttpSessionSecurityContextRepository : Did not store anonymous SecurityContext
+2022-11-01 11:54:15.580 DEBUG 32192 --- [http-nio-8082-exec-3] w.c.HttpSessionSecurityContextRepository : Did not store anonymous SecurityContext
+2022-11-01 11:54:15.581 DEBUG 32192 --- [http-nio-8082-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-11-01 11:57:43.701  INFO 32192 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 12:02:16.799 DEBUG 32192 --- [http-nio-8082-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /
+2022-11-01 12:02:16.800 DEBUG 32192 --- [http-nio-8082-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-11-01 12:02:16.802 DEBUG 32192 --- [http-nio-8082-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2022-11-01 12:02:16.807 DEBUG 32192 --- [http-nio-8082-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor    : Failed to authorize filter invocation [GET /] with attributes [authenticated]
+2022-11-01 12:02:18.039  WARN 32192 --- [http-nio-8082-exec-5] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,175] milliseconds.
+2022-11-01 12:02:18.069 DEBUG 32192 --- [http-nio-8082-exec-5] o.s.s.w.s.HttpSessionRequestCache        : Saved request http://localhost:8082/ to session
+2022-11-01 12:02:18.070 DEBUG 32192 --- [http-nio-8082-exec-5] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@43a72f0f, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2022-11-01 12:02:18.071 DEBUG 32192 --- [http-nio-8082-exec-5] s.w.a.DelegatingAuthenticationEntryPoint : Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@62109320
+2022-11-01 12:02:18.073 DEBUG 32192 --- [http-nio-8082-exec-5] o.s.s.web.DefaultRedirectStrategy        : Redirecting to http://localhost:8082/login
+2022-11-01 12:02:18.074 DEBUG 32192 --- [http-nio-8082-exec-5] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-11-01 12:02:18.075 DEBUG 32192 --- [http-nio-8082-exec-5] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-11-01 12:02:18.075 DEBUG 32192 --- [http-nio-8082-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-11-01 12:02:18.088 DEBUG 32192 --- [http-nio-8082-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /login
+2022-11-01 12:02:18.090 DEBUG 32192 --- [http-nio-8082-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-11-01 12:02:18.096 DEBUG 32192 --- [http-nio-8082-exec-6] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-11-01 12:02:18.097 DEBUG 32192 --- [http-nio-8082-exec-6] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-11-01 12:02:18.098 DEBUG 32192 --- [http-nio-8082-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-11-01 12:02:20.099 DEBUG 32192 --- [http-nio-8082-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /favicon.ico
+2022-11-01 12:02:20.100 DEBUG 32192 --- [http-nio-8082-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-11-01 12:02:20.101 DEBUG 32192 --- [http-nio-8082-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2022-11-01 12:02:20.102 DEBUG 32192 --- [http-nio-8082-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /favicon.ico] with attributes [permitAll]
+2022-11-01 12:02:20.103 DEBUG 32192 --- [http-nio-8082-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /favicon.ico
+2022-11-01 12:02:20.120 DEBUG 32192 --- [http-nio-8082-exec-7] w.c.HttpSessionSecurityContextRepository : Did not store anonymous SecurityContext
+2022-11-01 12:02:20.121 DEBUG 32192 --- [http-nio-8082-exec-7] w.c.HttpSessionSecurityContextRepository : Did not store anonymous SecurityContext
+2022-11-01 12:02:20.122 DEBUG 32192 --- [http-nio-8082-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-11-01 12:02:20.123 DEBUG 32192 --- [http-nio-8082-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /error
+2022-11-01 12:02:20.123 DEBUG 32192 --- [http-nio-8082-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-11-01 12:02:20.124 DEBUG 32192 --- [http-nio-8082-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2022-11-01 12:02:20.124 DEBUG 32192 --- [http-nio-8082-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /error
+2022-11-01 12:02:20.183 DEBUG 32192 --- [http-nio-8082-exec-7] w.c.HttpSessionSecurityContextRepository : Did not store anonymous SecurityContext
+2022-11-01 12:02:20.186 DEBUG 32192 --- [http-nio-8082-exec-7] w.c.HttpSessionSecurityContextRepository : Did not store anonymous SecurityContext
+2022-11-01 12:02:20.187 DEBUG 32192 --- [http-nio-8082-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-11-01 12:02:43.705  INFO 32192 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 12:04:15.593 DEBUG 32192 --- [http-nio-8082-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /registration
+2022-11-01 12:04:15.594 DEBUG 32192 --- [http-nio-8082-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-11-01 12:04:15.595 DEBUG 32192 --- [http-nio-8082-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2022-11-01 12:04:15.596 DEBUG 32192 --- [http-nio-8082-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /registration] with attributes [permitAll]
+2022-11-01 12:04:15.596 DEBUG 32192 --- [http-nio-8082-exec-9] o.s.security.web.FilterChainProxy        : Secured POST /registration
+2022-11-01 12:04:15.672 TRACE 32192 --- [http-nio-8082-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [run3]
+2022-11-01 12:04:15.681 TRACE 32192 --- [http-nio-8082-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [STAFF]
+2022-11-01 12:04:15.683 TRACE 32192 --- [http-nio-8082-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_] : [INTEGER]) - [2]
+2022-11-01 12:04:15.684 TRACE 32192 --- [http-nio-8082-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_des2_0_] : [VARCHAR]) - [Staff]
+2022-11-01 12:04:15.685 TRACE 32192 --- [http-nio-8082-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_nam3_0_] : [VARCHAR]) - [STAFF]
+2022-11-01 12:04:15.884 TRACE 32192 --- [http-nio-8082-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [STAFF]
+2022-11-01 12:04:15.886 TRACE 32192 --- [http-nio-8082-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_] : [INTEGER]) - [2]
+2022-11-01 12:04:15.928 TRACE 32192 --- [http-nio-8082-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [gofindw]
+2022-11-01 12:04:15.928 TRACE 32192 --- [http-nio-8082-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [INTEGER] - [43]
+2022-11-01 12:04:15.928 TRACE 32192 --- [http-nio-8082-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [shivam.bhat@publicissapient.com]
+2022-11-01 12:04:15.928 TRACE 32192 --- [http-nio-8082-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [jignesh]
+2022-11-01 12:04:15.928 TRACE 32192 --- [http-nio-8082-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [Female]
+2022-11-01 12:04:15.928 TRACE 32192 --- [http-nio-8082-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [VARCHAR] - [patel]
+2022-11-01 12:04:15.928 TRACE 32192 --- [http-nio-8082-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [7] as [VARCHAR] - [$2a$10$Bi9QZbx.R/JeaxyYjbB6KuQQA6rhZlneYjBxCiganZCYVz2sioWYa]
+2022-11-01 12:04:15.929 TRACE 32192 --- [http-nio-8082-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [8] as [INTEGER] - [2121]
+2022-11-01 12:04:15.929 TRACE 32192 --- [http-nio-8082-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [9] as [VARCHAR] - [run3]
+2022-11-01 12:04:15.983 TRACE 32192 --- [http-nio-8082-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [28]
+2022-11-01 12:04:15.983 TRACE 32192 --- [http-nio-8082-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [INTEGER] - [2]
+2022-11-01 12:04:15.994 DEBUG 32192 --- [http-nio-8082-exec-9] w.c.HttpSessionSecurityContextRepository : Did not store anonymous SecurityContext
+2022-11-01 12:04:15.996 DEBUG 32192 --- [http-nio-8082-exec-9] w.c.HttpSessionSecurityContextRepository : Did not store anonymous SecurityContext
+2022-11-01 12:04:15.997 DEBUG 32192 --- [http-nio-8082-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-11-01 12:05:06.902 DEBUG 32192 --- [http-nio-8082-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /list
+2022-11-01 12:05:06.903 DEBUG 32192 --- [http-nio-8082-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-11-01 12:05:06.904 DEBUG 32192 --- [http-nio-8082-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2022-11-01 12:05:06.905 DEBUG 32192 --- [http-nio-8082-exec-10] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /list] with attributes [permitAll]
+2022-11-01 12:05:06.906 DEBUG 32192 --- [http-nio-8082-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /list
+2022-11-01 12:05:06.924 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_2_] : [INTEGER]) - [1]
+2022-11-01 12:05:06.924 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address2_2_] : [VARCHAR]) - [Jamnagar]
+2022-11-01 12:05:06.925 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age3_2_] : [INTEGER]) - [24]
+2022-11-01 12:05:06.926 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_2_] : [VARCHAR]) - [efg@gmail.com]
+2022-11-01 12:05:06.926 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na5_2_] : [VARCHAR]) - [Gaurav]
+2022-11-01 12:05:06.926 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([gender6_2_] : [VARCHAR]) - [male]
+2022-11-01 12:05:06.926 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_2_] : [VARCHAR]) - [Sahani]
+2022-11-01 12:05:06.927 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password8_2_] : [VARCHAR]) - [$2a$10$jaaF5BFDGclJ49WJSZVEQOLLeeaMYRsHU92M2wXH44k5cReyu/Bv.]
+2022-11-01 12:05:06.927 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone_no9_2_] : [INTEGER]) - [87654321]
+2022-11-01 12:05:06.927 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_2_] : [VARCHAR]) - [gaurav]
+2022-11-01 12:05:06.928 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_2_] : [INTEGER]) - [2]
+2022-11-01 12:05:06.928 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address2_2_] : [VARCHAR]) - [Jamnagar]
+2022-11-01 12:05:06.928 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age3_2_] : [INTEGER]) - [24]
+2022-11-01 12:05:06.930 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_2_] : [VARCHAR]) - [efg@gmail.com]
+2022-11-01 12:05:06.930 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na5_2_] : [VARCHAR]) - [Gaurav]
+2022-11-01 12:05:06.930 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([gender6_2_] : [VARCHAR]) - [male]
+2022-11-01 12:05:06.930 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_2_] : [VARCHAR]) - [Sahani]
+2022-11-01 12:05:06.930 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password8_2_] : [VARCHAR]) - [$2a$10$zfiCyrwdkvptGYJNEOXRAO4QpdNN7MAm4aFoKqjNW/xxiVU.z03vS]
+2022-11-01 12:05:06.930 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone_no9_2_] : [INTEGER]) - [87654321]
+2022-11-01 12:05:06.930 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_2_] : [VARCHAR]) - [gaura]
+2022-11-01 12:05:06.931 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_2_] : [INTEGER]) - [3]
+2022-11-01 12:05:06.931 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address2_2_] : [VARCHAR]) - [Jamnagar]
+2022-11-01 12:05:06.931 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age3_2_] : [INTEGER]) - [24]
+2022-11-01 12:05:06.931 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_2_] : [VARCHAR]) - [efg@gmail.com]
+2022-11-01 12:05:06.931 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na5_2_] : [VARCHAR]) - [Gaurav]
+2022-11-01 12:05:06.931 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([gender6_2_] : [VARCHAR]) - [male]
+2022-11-01 12:05:06.931 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_2_] : [VARCHAR]) - [Sahani]
+2022-11-01 12:05:06.932 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password8_2_] : [VARCHAR]) - [$2a$10$FHOOKcEsO/bTmcMkEmwiuuWV53j1YlTTj3B8T1DGnlc9r/YjCJ1WS]
+2022-11-01 12:05:06.932 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone_no9_2_] : [INTEGER]) - [87654321]
+2022-11-01 12:05:06.933 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_2_] : [VARCHAR]) - [arun]
+2022-11-01 12:05:06.933 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_2_] : [INTEGER]) - [4]
+2022-11-01 12:05:06.933 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address2_2_] : [VARCHAR]) - [Jammu]
+2022-11-01 12:05:06.933 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age3_2_] : [INTEGER]) - [22]
+2022-11-01 12:05:06.933 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_2_] : [VARCHAR]) - [shivam.bhat@publicissapient.com]
+2022-11-01 12:05:06.933 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na5_2_] : [VARCHAR]) - [Shivam]
+2022-11-01 12:05:06.934 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([gender6_2_] : [VARCHAR]) - [Male]
+2022-11-01 12:05:06.934 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_2_] : [VARCHAR]) - [bhat]
+2022-11-01 12:05:06.934 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password8_2_] : [VARCHAR]) - [$2a$10$OnQRZ6z5HhsC4m67rkNakuYz.6N0CoS/vnk4pq6lM2/sGJAFMvHAq]
+2022-11-01 12:05:06.934 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone_no9_2_] : [INTEGER]) - [876543210]
+2022-11-01 12:05:06.934 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_2_] : [VARCHAR]) - [shivam]
+2022-11-01 12:05:06.935 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_2_] : [INTEGER]) - [5]
+2022-11-01 12:05:06.935 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address2_2_] : [VARCHAR]) - [Jamnagar]
+2022-11-01 12:05:06.935 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age3_2_] : [INTEGER]) - [24]
+2022-11-01 12:05:06.935 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_2_] : [VARCHAR]) - [efg@gmail.com]
+2022-11-01 12:05:06.935 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na5_2_] : [VARCHAR]) - [Gaurav]
+2022-11-01 12:05:06.935 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([gender6_2_] : [VARCHAR]) - [male]
+2022-11-01 12:05:06.936 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_2_] : [VARCHAR]) - [Sahani]
+2022-11-01 12:05:06.936 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password8_2_] : [VARCHAR]) - [$2a$10$AWjTSzLlFeSFRxG28ZSxq.dEnlgGnVZp17UbDATGmfe1iWqUZ1FBe]
+2022-11-01 12:05:06.936 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone_no9_2_] : [INTEGER]) - [87654321]
+2022-11-01 12:05:06.936 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_2_] : [VARCHAR]) - [shami]
+2022-11-01 12:05:06.936 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_2_] : [INTEGER]) - [6]
+2022-11-01 12:05:06.936 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address2_2_] : [VARCHAR]) - [jamny]
+2022-11-01 12:05:06.936 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age3_2_] : [INTEGER]) - [23]
+2022-11-01 12:05:06.937 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_2_] : [VARCHAR]) - [shivam.bhat@publicissapient.com]
+2022-11-01 12:05:06.937 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na5_2_] : [VARCHAR]) - [shyam]
+2022-11-01 12:05:06.937 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([gender6_2_] : [VARCHAR]) - [male]
+2022-11-01 12:05:06.937 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_2_] : [VARCHAR]) - [dev]
+2022-11-01 12:05:06.938 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password8_2_] : [VARCHAR]) - [$2a$10$cR3vEs7p9eVzsFj3ss0b7e45mmeXAccLPaqHtgMYWM/3YVQbu14B2]
+2022-11-01 12:05:06.938 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone_no9_2_] : [INTEGER]) - [76543210]
+2022-11-01 12:05:06.938 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_2_] : [VARCHAR]) - [shyam]
+2022-11-01 12:05:06.939 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_2_] : [INTEGER]) - [8]
+2022-11-01 12:05:06.939 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address2_2_] : [VARCHAR]) - [Jamnagar]
+2022-11-01 12:05:06.939 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age3_2_] : [INTEGER]) - [24]
+2022-11-01 12:05:06.939 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_2_] : [VARCHAR]) - [efg@gmail.com]
+2022-11-01 12:05:06.939 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na5_2_] : [VARCHAR]) - [Gaurav]
+2022-11-01 12:05:06.940 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([gender6_2_] : [VARCHAR]) - [male]
+2022-11-01 12:05:06.940 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_2_] : [VARCHAR]) - [Sahani]
+2022-11-01 12:05:06.940 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password8_2_] : [VARCHAR]) - [$2a$10$HlhfCoJjC6uxr8nnKoBg4.yN9eBDAWseSq0O45emIGTDOUZJL8vbO]
+2022-11-01 12:05:06.940 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone_no9_2_] : [INTEGER]) - [87654321]
+2022-11-01 12:05:06.940 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_2_] : [VARCHAR]) - [shami1]
+2022-11-01 12:05:06.940 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_2_] : [INTEGER]) - [16]
+2022-11-01 12:05:06.940 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address2_2_] : [VARCHAR]) - [Jamnagar]
+2022-11-01 12:05:06.942 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age3_2_] : [INTEGER]) - [24]
+2022-11-01 12:05:06.942 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_2_] : [VARCHAR]) - [efg@gmail.com]
+2022-11-01 12:05:06.942 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na5_2_] : [VARCHAR]) - [Gaurav]
+2022-11-01 12:05:06.942 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([gender6_2_] : [VARCHAR]) - [male]
+2022-11-01 12:05:06.943 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_2_] : [VARCHAR]) - [Sahani]
+2022-11-01 12:05:06.943 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password8_2_] : [VARCHAR]) - [$2a$10$7yGH9yoLzfniD9FvCejqD.wKKMU1xxjZ0goX5tD3jmRxFNVmag/KW]
+2022-11-01 12:05:06.943 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone_no9_2_] : [INTEGER]) - [87654321]
+2022-11-01 12:05:06.943 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_2_] : [VARCHAR]) - [shami2]
+2022-11-01 12:05:06.944 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_2_] : [INTEGER]) - [18]
+2022-11-01 12:05:06.944 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address2_2_] : [VARCHAR]) - [jammu]
+2022-11-01 12:05:06.945 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age3_2_] : [INTEGER]) - [42]
+2022-11-01 12:05:06.945 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_2_] : [VARCHAR]) - [shivam.bhat@publicissapient.com]
+2022-11-01 12:05:06.945 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na5_2_] : [VARCHAR]) - [shivam]
+2022-11-01 12:05:06.945 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([gender6_2_] : [VARCHAR]) - [male]
+2022-11-01 12:05:06.946 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_2_] : [VARCHAR]) - [bhat]
+2022-11-01 12:05:06.946 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password8_2_] : [VARCHAR]) - [$2a$10$CqAA2mWj/R4fn7UA3lwlFOjzTgLnxgykuGNtcuYlqb0RYsw/jAjoe]
+2022-11-01 12:05:06.946 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone_no9_2_] : [INTEGER]) - [131]
+2022-11-01 12:05:06.946 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_2_] : [VARCHAR]) - [shivam21]
+2022-11-01 12:05:06.946 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_2_] : [INTEGER]) - [20]
+2022-11-01 12:05:06.947 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address2_2_] : [VARCHAR]) - [312312]
+2022-11-01 12:05:06.947 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age3_2_] : [INTEGER]) - [31]
+2022-11-01 12:05:06.947 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_2_] : [VARCHAR]) - [shivam.bhat@publicissapient.com]
+2022-11-01 12:05:06.947 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na5_2_] : [VARCHAR]) - [shivam]
+2022-11-01 12:05:06.947 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([gender6_2_] : [VARCHAR]) - [Female]
+2022-11-01 12:05:06.948 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_2_] : [VARCHAR]) - [bhat]
+2022-11-01 12:05:06.948 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password8_2_] : [VARCHAR]) - [$2a$10$DHavom2j5avzvH9.wZpMuOYYfAnnz3lMBZMJbZ8DquZBU2ax6m1zS]
+2022-11-01 12:05:06.948 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone_no9_2_] : [INTEGER]) - [23232]
+2022-11-01 12:05:06.948 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_2_] : [VARCHAR]) - [homie]
+2022-11-01 12:05:06.949 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_2_] : [INTEGER]) - [21]
+2022-11-01 12:05:06.949 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address2_2_] : [VARCHAR]) - [Home]
+2022-11-01 12:05:06.950 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age3_2_] : [INTEGER]) - [32]
+2022-11-01 12:05:06.950 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_2_] : [VARCHAR]) - [shivam.bhat@publicissapient.com]
+2022-11-01 12:05:06.950 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na5_2_] : [VARCHAR]) - [Shivam]
+2022-11-01 12:05:06.950 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([gender6_2_] : [VARCHAR]) - [Male]
+2022-11-01 12:05:06.951 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_2_] : [VARCHAR]) - [Gautam]
+2022-11-01 12:05:06.951 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password8_2_] : [VARCHAR]) - [$2a$10$/Jb9Me5gTxhhx70DrEPTzOEBZ/hz1lLWsJC3q4FVZMXn38woBEI6S]
+2022-11-01 12:05:06.951 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone_no9_2_] : [INTEGER]) - [12345677]
+2022-11-01 12:05:06.951 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_2_] : [VARCHAR]) - [rtye]
+2022-11-01 12:05:06.952 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_2_] : [INTEGER]) - [22]
+2022-11-01 12:05:06.952 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address2_2_] : [VARCHAR]) - [sadasd]
+2022-11-01 12:05:06.952 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age3_2_] : [INTEGER]) - [42]
+2022-11-01 12:05:06.953 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_2_] : [VARCHAR]) - [shivam.bhat@publicissapient.com]
+2022-11-01 12:05:06.953 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na5_2_] : [VARCHAR]) - [gaurav]
+2022-11-01 12:05:06.953 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([gender6_2_] : [VARCHAR]) - [Female]
+2022-11-01 12:05:06.953 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_2_] : [VARCHAR]) - [sharma]
+2022-11-01 12:05:06.954 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password8_2_] : [VARCHAR]) - [$2a$10$XLFJegNc3N46zf.eBZ4YtOqZDhPlc6rS6sZYSEiOIusQhFIGjn5R.]
+2022-11-01 12:05:06.954 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone_no9_2_] : [INTEGER]) - [12323]
+2022-11-01 12:05:06.955 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_2_] : [VARCHAR]) - [shivam456]
+2022-11-01 12:05:06.956 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_2_] : [INTEGER]) - [23]
+2022-11-01 12:05:06.956 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address2_2_] : [VARCHAR]) - [arunachal]
+2022-11-01 12:05:06.956 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age3_2_] : [INTEGER]) - [34]
+2022-11-01 12:05:06.957 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_2_] : [VARCHAR]) - [shivam.bhat@publicissapient.com]
+2022-11-01 12:05:06.957 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na5_2_] : [VARCHAR]) - [Adivesh]
+2022-11-01 12:05:06.957 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([gender6_2_] : [VARCHAR]) - [Female]
+2022-11-01 12:05:06.957 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_2_] : [VARCHAR]) - [Sharma]
+2022-11-01 12:05:06.957 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password8_2_] : [VARCHAR]) - [$2a$10$j7UnXWJDZp4hzaeYKzLJGe3zTHSPiG3RYCWgP5AlxFAqri83r3HqW]
+2022-11-01 12:05:06.957 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone_no9_2_] : [INTEGER]) - [233423]
+2022-11-01 12:05:06.957 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_2_] : [VARCHAR]) - [adivesh]
+2022-11-01 12:05:06.957 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_2_] : [INTEGER]) - [24]
+2022-11-01 12:05:06.959 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address2_2_] : [VARCHAR]) - [dsad]
+2022-11-01 12:05:06.959 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age3_2_] : [INTEGER]) - [78]
+2022-11-01 12:05:06.959 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_2_] : [VARCHAR]) - [shivam.bhat@publicissapient.com]
+2022-11-01 12:05:06.959 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na5_2_] : [VARCHAR]) - [jhangir]
+2022-11-01 12:05:06.960 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([gender6_2_] : [VARCHAR]) - [Other]
+2022-11-01 12:05:06.960 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_2_] : [VARCHAR]) - [khan]
+2022-11-01 12:05:06.960 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password8_2_] : [VARCHAR]) - [$2a$10$H8IfsOWwv0aS/Jx0BtHuA.z0bWcGXTru7IBF91dxA6osXn.GW9l2a]
+2022-11-01 12:05:06.960 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone_no9_2_] : [INTEGER]) - [32323]
+2022-11-01 12:05:06.960 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_2_] : [VARCHAR]) - [jhangir]
+2022-11-01 12:05:06.961 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_2_] : [INTEGER]) - [25]
+2022-11-01 12:05:06.961 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address2_2_] : [VARCHAR]) - [Udupi]
+2022-11-01 12:05:06.962 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age3_2_] : [INTEGER]) - [32]
+2022-11-01 12:05:06.962 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_2_] : [VARCHAR]) - [shivam.bhat@publicissapient.com]
+2022-11-01 12:05:06.962 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na5_2_] : [VARCHAR]) - [Vishal]
+2022-11-01 12:05:06.963 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([gender6_2_] : [VARCHAR]) - [Male]
+2022-11-01 12:05:06.963 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_2_] : [VARCHAR]) - [Dayanand]
+2022-11-01 12:05:06.963 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password8_2_] : [VARCHAR]) - [$2a$10$wguYDaTSZ/f1jjCEiFcug.T25.HTPvezDblzSNiy2FoL30haVUvPC]
+2022-11-01 12:05:06.963 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone_no9_2_] : [INTEGER]) - [987654]
+2022-11-01 12:05:06.964 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_2_] : [VARCHAR]) - [vishal]
+2022-11-01 12:05:06.964 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_2_] : [INTEGER]) - [26]
+2022-11-01 12:05:06.964 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address2_2_] : [VARCHAR]) - [karnatka]
+2022-11-01 12:05:06.965 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age3_2_] : [INTEGER]) - [22]
+2022-11-01 12:05:06.965 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_2_] : [VARCHAR]) - [shivam.bhat@publicissapient.com]
+2022-11-01 12:05:06.965 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na5_2_] : [VARCHAR]) - [shubham]
+2022-11-01 12:05:06.965 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([gender6_2_] : [VARCHAR]) - [Male]
+2022-11-01 12:05:06.965 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_2_] : [VARCHAR]) - [bhidaralli]
+2022-11-01 12:05:06.966 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password8_2_] : [VARCHAR]) - [$2a$10$xNZlJIihmy5yr6jCCYxdqeAixX3yqpNZKJ6cc/E4X6RqAKUHzY2oS]
+2022-11-01 12:05:06.966 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone_no9_2_] : [INTEGER]) - [3233423]
+2022-11-01 12:05:06.966 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_2_] : [VARCHAR]) - [shubham]
+2022-11-01 12:05:06.967 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_2_] : [INTEGER]) - [27]
+2022-11-01 12:05:06.967 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address2_2_] : [VARCHAR]) - [Jamnagar]
+2022-11-01 12:05:06.968 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age3_2_] : [INTEGER]) - [24]
+2022-11-01 12:05:06.968 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_2_] : [VARCHAR]) - [efg@gmail.com]
+2022-11-01 12:05:06.968 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na5_2_] : [VARCHAR]) - [Gaurav]
+2022-11-01 12:05:06.968 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([gender6_2_] : [VARCHAR]) - [male]
+2022-11-01 12:05:06.969 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_2_] : [VARCHAR]) - [Sahani]
+2022-11-01 12:05:06.969 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password8_2_] : [VARCHAR]) - [$2a$10$jXob8G2mqOJ6pxXoS0wYuu2H7ioTczdfsMivVQqTKNP4mHlpflbme]
+2022-11-01 12:05:06.969 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone_no9_2_] : [INTEGER]) - [87654321]
+2022-11-01 12:05:06.969 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_2_] : [VARCHAR]) - [aruneshwar]
+2022-11-01 12:05:06.970 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_2_] : [INTEGER]) - [28]
+2022-11-01 12:05:06.970 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address2_2_] : [VARCHAR]) - [gofindw]
+2022-11-01 12:05:06.970 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age3_2_] : [INTEGER]) - [43]
+2022-11-01 12:05:06.971 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_2_] : [VARCHAR]) - [shivam.bhat@publicissapient.com]
+2022-11-01 12:05:06.972 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na5_2_] : [VARCHAR]) - [jignesh]
+2022-11-01 12:05:06.972 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([gender6_2_] : [VARCHAR]) - [Female]
+2022-11-01 12:05:06.972 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_2_] : [VARCHAR]) - [patel]
+2022-11-01 12:05:06.972 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password8_2_] : [VARCHAR]) - [$2a$10$Bi9QZbx.R/JeaxyYjbB6KuQQA6rhZlneYjBxCiganZCYVz2sioWYa]
+2022-11-01 12:05:06.972 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone_no9_2_] : [INTEGER]) - [2121]
+2022-11-01 12:05:06.973 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_2_] : [VARCHAR]) - [run3]
+2022-11-01 12:05:06.977 TRACE 32192 --- [http-nio-8082-exec-10] org.hibernate.type.CollectionType        : Created collection wrapper: [com.publicissapient.entity.User.roles#1]
+2022-11-01 12:05:06.977 TRACE 32192 --- [http-nio-8082-exec-10] org.hibernate.type.CollectionType        : Created collection wrapper: [com.publicissapient.entity.User.roles#2]
+2022-11-01 12:05:06.978 TRACE 32192 --- [http-nio-8082-exec-10] org.hibernate.type.CollectionType        : Created collection wrapper: [com.publicissapient.entity.User.roles#3]
+2022-11-01 12:05:06.978 TRACE 32192 --- [http-nio-8082-exec-10] org.hibernate.type.CollectionType        : Created collection wrapper: [com.publicissapient.entity.User.roles#4]
+2022-11-01 12:05:06.979 TRACE 32192 --- [http-nio-8082-exec-10] org.hibernate.type.CollectionType        : Created collection wrapper: [com.publicissapient.entity.User.roles#5]
+2022-11-01 12:05:06.979 TRACE 32192 --- [http-nio-8082-exec-10] org.hibernate.type.CollectionType        : Created collection wrapper: [com.publicissapient.entity.User.roles#6]
+2022-11-01 12:05:06.979 TRACE 32192 --- [http-nio-8082-exec-10] org.hibernate.type.CollectionType        : Created collection wrapper: [com.publicissapient.entity.User.roles#8]
+2022-11-01 12:05:06.980 TRACE 32192 --- [http-nio-8082-exec-10] org.hibernate.type.CollectionType        : Created collection wrapper: [com.publicissapient.entity.User.roles#16]
+2022-11-01 12:05:06.980 TRACE 32192 --- [http-nio-8082-exec-10] org.hibernate.type.CollectionType        : Created collection wrapper: [com.publicissapient.entity.User.roles#18]
+2022-11-01 12:05:06.981 TRACE 32192 --- [http-nio-8082-exec-10] org.hibernate.type.CollectionType        : Created collection wrapper: [com.publicissapient.entity.User.roles#20]
+2022-11-01 12:05:06.981 TRACE 32192 --- [http-nio-8082-exec-10] org.hibernate.type.CollectionType        : Created collection wrapper: [com.publicissapient.entity.User.roles#21]
+2022-11-01 12:05:06.982 TRACE 32192 --- [http-nio-8082-exec-10] org.hibernate.type.CollectionType        : Created collection wrapper: [com.publicissapient.entity.User.roles#22]
+2022-11-01 12:05:06.983 TRACE 32192 --- [http-nio-8082-exec-10] org.hibernate.type.CollectionType        : Created collection wrapper: [com.publicissapient.entity.User.roles#23]
+2022-11-01 12:05:06.983 TRACE 32192 --- [http-nio-8082-exec-10] org.hibernate.type.CollectionType        : Created collection wrapper: [com.publicissapient.entity.User.roles#24]
+2022-11-01 12:05:06.984 TRACE 32192 --- [http-nio-8082-exec-10] org.hibernate.type.CollectionType        : Created collection wrapper: [com.publicissapient.entity.User.roles#25]
+2022-11-01 12:05:06.984 TRACE 32192 --- [http-nio-8082-exec-10] org.hibernate.type.CollectionType        : Created collection wrapper: [com.publicissapient.entity.User.roles#26]
+2022-11-01 12:05:06.984 TRACE 32192 --- [http-nio-8082-exec-10] org.hibernate.type.CollectionType        : Created collection wrapper: [com.publicissapient.entity.User.roles#27]
+2022-11-01 12:05:06.985 TRACE 32192 --- [http-nio-8082-exec-10] org.hibernate.type.CollectionType        : Created collection wrapper: [com.publicissapient.entity.User.roles#28]
+2022-11-01 12:05:06.990 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [28]
+2022-11-01 12:05:06.993 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_1_] : [INTEGER]) - [2]
+2022-11-01 12:05:06.994 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_des2_0_1_] : [VARCHAR]) - [Staff]
+2022-11-01 12:05:06.994 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_nam3_0_1_] : [VARCHAR]) - [STAFF]
+2022-11-01 12:05:06.994 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_1_0_] : [INTEGER]) - [28]
+2022-11-01 12:05:06.995 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_1_0_] : [INTEGER]) - [2]
+2022-11-01 12:05:06.996 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [27]
+2022-11-01 12:05:06.998 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_1_] : [INTEGER]) - [2]
+2022-11-01 12:05:06.998 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_1_0_] : [INTEGER]) - [27]
+2022-11-01 12:05:06.999 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_1_0_] : [INTEGER]) - [2]
+2022-11-01 12:05:07.000 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [26]
+2022-11-01 12:05:07.001 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_1_] : [INTEGER]) - [1]
+2022-11-01 12:05:07.002 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_des2_0_1_] : [VARCHAR]) - [null]
+2022-11-01 12:05:07.002 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_nam3_0_1_] : [VARCHAR]) - [CUSTOMER]
+2022-11-01 12:05:07.002 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_1_0_] : [INTEGER]) - [26]
+2022-11-01 12:05:07.003 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_1_0_] : [INTEGER]) - [1]
+2022-11-01 12:05:07.004 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [25]
+2022-11-01 12:05:07.007 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_1_] : [INTEGER]) - [1]
+2022-11-01 12:05:07.007 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_1_0_] : [INTEGER]) - [25]
+2022-11-01 12:05:07.008 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_1_0_] : [INTEGER]) - [1]
+2022-11-01 12:05:07.009 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [24]
+2022-11-01 12:05:07.010 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_1_] : [INTEGER]) - [1]
+2022-11-01 12:05:07.010 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_1_0_] : [INTEGER]) - [24]
+2022-11-01 12:05:07.011 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_1_0_] : [INTEGER]) - [1]
+2022-11-01 12:05:07.012 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [23]
+2022-11-01 12:05:07.014 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_1_] : [INTEGER]) - [3]
+2022-11-01 12:05:07.014 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_des2_0_1_] : [VARCHAR]) - [Admin]
+2022-11-01 12:05:07.015 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_nam3_0_1_] : [VARCHAR]) - [ADMIN]
+2022-11-01 12:05:07.015 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_1_0_] : [INTEGER]) - [23]
+2022-11-01 12:05:07.015 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_1_0_] : [INTEGER]) - [3]
+2022-11-01 12:05:07.017 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [22]
+2022-11-01 12:05:07.019 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_1_] : [INTEGER]) - [3]
+2022-11-01 12:05:07.020 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_1_0_] : [INTEGER]) - [22]
+2022-11-01 12:05:07.020 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_1_0_] : [INTEGER]) - [3]
+2022-11-01 12:05:07.021 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [21]
+2022-11-01 12:05:07.022 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_1_] : [INTEGER]) - [2]
+2022-11-01 12:05:07.023 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_1_0_] : [INTEGER]) - [21]
+2022-11-01 12:05:07.023 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_1_0_] : [INTEGER]) - [2]
+2022-11-01 12:05:07.023 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [20]
+2022-11-01 12:05:07.026 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_1_] : [INTEGER]) - [3]
+2022-11-01 12:05:07.026 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_1_0_] : [INTEGER]) - [20]
+2022-11-01 12:05:07.027 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_1_0_] : [INTEGER]) - [3]
+2022-11-01 12:05:07.028 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [18]
+2022-11-01 12:05:07.031 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_1_] : [INTEGER]) - [3]
+2022-11-01 12:05:07.031 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_1_0_] : [INTEGER]) - [18]
+2022-11-01 12:05:07.031 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_1_0_] : [INTEGER]) - [3]
+2022-11-01 12:05:07.032 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [16]
+2022-11-01 12:05:07.034 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_1_] : [INTEGER]) - [3]
+2022-11-01 12:05:07.034 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_1_0_] : [INTEGER]) - [16]
+2022-11-01 12:05:07.035 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_1_0_] : [INTEGER]) - [3]
+2022-11-01 12:05:07.036 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [8]
+2022-11-01 12:05:07.037 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_1_] : [INTEGER]) - [3]
+2022-11-01 12:05:07.037 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_1_0_] : [INTEGER]) - [8]
+2022-11-01 12:05:07.037 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_1_0_] : [INTEGER]) - [3]
+2022-11-01 12:05:07.038 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [6]
+2022-11-01 12:05:07.040 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_1_] : [INTEGER]) - [2]
+2022-11-01 12:05:07.040 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_1_0_] : [INTEGER]) - [6]
+2022-11-01 12:05:07.041 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_1_0_] : [INTEGER]) - [2]
+2022-11-01 12:05:07.041 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [5]
+2022-11-01 12:05:07.044 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_1_] : [INTEGER]) - [3]
+2022-11-01 12:05:07.044 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_1_0_] : [INTEGER]) - [5]
+2022-11-01 12:05:07.045 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_1_0_] : [INTEGER]) - [3]
+2022-11-01 12:05:07.046 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [4]
+2022-11-01 12:05:07.048 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_1_] : [INTEGER]) - [1]
+2022-11-01 12:05:07.049 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_1_0_] : [INTEGER]) - [4]
+2022-11-01 12:05:07.050 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_1_0_] : [INTEGER]) - [1]
+2022-11-01 12:05:07.050 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [3]
+2022-11-01 12:05:07.052 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_1_] : [INTEGER]) - [2]
+2022-11-01 12:05:07.052 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_1_0_] : [INTEGER]) - [3]
+2022-11-01 12:05:07.052 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_1_0_] : [INTEGER]) - [2]
+2022-11-01 12:05:07.053 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [2]
+2022-11-01 12:05:07.055 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_1_] : [INTEGER]) - [1]
+2022-11-01 12:05:07.055 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_1_0_] : [INTEGER]) - [2]
+2022-11-01 12:05:07.056 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_1_0_] : [INTEGER]) - [1]
+2022-11-01 12:05:07.058 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [1]
+2022-11-01 12:05:07.059 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_1_] : [INTEGER]) - [1]
+2022-11-01 12:05:07.059 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_1_0_] : [INTEGER]) - [1]
+2022-11-01 12:05:07.060 TRACE 32192 --- [http-nio-8082-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_1_0_] : [INTEGER]) - [1]
+2022-11-01 12:05:07.078 DEBUG 32192 --- [http-nio-8082-exec-10] w.c.HttpSessionSecurityContextRepository : Did not store anonymous SecurityContext
+2022-11-01 12:05:07.081 DEBUG 32192 --- [http-nio-8082-exec-10] w.c.HttpSessionSecurityContextRepository : Did not store anonymous SecurityContext
+2022-11-01 12:05:07.081 DEBUG 32192 --- [http-nio-8082-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-11-01 12:06:04.661 DEBUG 32192 --- [http-nio-8082-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /registration
+2022-11-01 12:06:04.662 DEBUG 32192 --- [http-nio-8082-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-11-01 12:06:04.663 DEBUG 32192 --- [http-nio-8082-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2022-11-01 12:06:04.663 DEBUG 32192 --- [http-nio-8082-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /registration] with attributes [permitAll]
+2022-11-01 12:06:04.664 DEBUG 32192 --- [http-nio-8082-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /registration
+2022-11-01 12:06:04.668 TRACE 32192 --- [http-nio-8082-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [run3]
+2022-11-01 12:06:04.670 TRACE 32192 --- [http-nio-8082-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_2_] : [INTEGER]) - [28]
+2022-11-01 12:06:04.671 TRACE 32192 --- [http-nio-8082-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address2_2_] : [VARCHAR]) - [gofindw]
+2022-11-01 12:06:04.671 TRACE 32192 --- [http-nio-8082-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age3_2_] : [INTEGER]) - [43]
+2022-11-01 12:06:04.671 TRACE 32192 --- [http-nio-8082-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_2_] : [VARCHAR]) - [shivam.bhat@publicissapient.com]
+2022-11-01 12:06:04.671 TRACE 32192 --- [http-nio-8082-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na5_2_] : [VARCHAR]) - [jignesh]
+2022-11-01 12:06:04.671 TRACE 32192 --- [http-nio-8082-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([gender6_2_] : [VARCHAR]) - [Female]
+2022-11-01 12:06:04.671 TRACE 32192 --- [http-nio-8082-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_2_] : [VARCHAR]) - [patel]
+2022-11-01 12:06:04.672 TRACE 32192 --- [http-nio-8082-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password8_2_] : [VARCHAR]) - [$2a$10$Bi9QZbx.R/JeaxyYjbB6KuQQA6rhZlneYjBxCiganZCYVz2sioWYa]
+2022-11-01 12:06:04.672 TRACE 32192 --- [http-nio-8082-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone_no9_2_] : [INTEGER]) - [2121]
+2022-11-01 12:06:04.672 TRACE 32192 --- [http-nio-8082-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_2_] : [VARCHAR]) - [run3]
+2022-11-01 12:06:04.672 TRACE 32192 --- [http-nio-8082-exec-2] org.hibernate.type.CollectionType        : Created collection wrapper: [com.publicissapient.entity.User.roles#28]
+2022-11-01 12:06:04.673 TRACE 32192 --- [http-nio-8082-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [28]
+2022-11-01 12:06:04.675 TRACE 32192 --- [http-nio-8082-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_1_] : [INTEGER]) - [2]
+2022-11-01 12:06:04.675 TRACE 32192 --- [http-nio-8082-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_des2_0_1_] : [VARCHAR]) - [Staff]
+2022-11-01 12:06:04.675 TRACE 32192 --- [http-nio-8082-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_nam3_0_1_] : [VARCHAR]) - [STAFF]
+2022-11-01 12:06:04.675 TRACE 32192 --- [http-nio-8082-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_1_0_] : [INTEGER]) - [28]
+2022-11-01 12:06:04.675 TRACE 32192 --- [http-nio-8082-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_1_0_] : [INTEGER]) - [2]
+2022-11-01 12:06:04.680 DEBUG 32192 --- [http-nio-8082-exec-2] w.c.HttpSessionSecurityContextRepository : Did not store anonymous SecurityContext
+2022-11-01 12:06:04.682 DEBUG 32192 --- [http-nio-8082-exec-2] w.c.HttpSessionSecurityContextRepository : Did not store anonymous SecurityContext
+2022-11-01 12:06:04.682 DEBUG 32192 --- [http-nio-8082-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-11-01 12:06:39.677 DEBUG 32192 --- [http-nio-8082-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /registration
+2022-11-01 12:06:39.677 DEBUG 32192 --- [http-nio-8082-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-11-01 12:06:39.678 DEBUG 32192 --- [http-nio-8082-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2022-11-01 12:06:39.679 DEBUG 32192 --- [http-nio-8082-exec-1] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /registration] with attributes [permitAll]
+2022-11-01 12:06:39.679 DEBUG 32192 --- [http-nio-8082-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /registration
+2022-11-01 12:06:39.682 TRACE 32192 --- [http-nio-8082-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [run3]
+2022-11-01 12:06:39.684 TRACE 32192 --- [http-nio-8082-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_2_] : [INTEGER]) - [28]
+2022-11-01 12:06:39.684 TRACE 32192 --- [http-nio-8082-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([address2_2_] : [VARCHAR]) - [gofindw]
+2022-11-01 12:06:39.685 TRACE 32192 --- [http-nio-8082-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age3_2_] : [INTEGER]) - [43]
+2022-11-01 12:06:39.685 TRACE 32192 --- [http-nio-8082-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email4_2_] : [VARCHAR]) - [shivam.bhat@publicissapient.com]
+2022-11-01 12:06:39.685 TRACE 32192 --- [http-nio-8082-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na5_2_] : [VARCHAR]) - [jignesh]
+2022-11-01 12:06:39.685 TRACE 32192 --- [http-nio-8082-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([gender6_2_] : [VARCHAR]) - [Female]
+2022-11-01 12:06:39.685 TRACE 32192 --- [http-nio-8082-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam7_2_] : [VARCHAR]) - [patel]
+2022-11-01 12:06:39.686 TRACE 32192 --- [http-nio-8082-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password8_2_] : [VARCHAR]) - [$2a$10$Bi9QZbx.R/JeaxyYjbB6KuQQA6rhZlneYjBxCiganZCYVz2sioWYa]
+2022-11-01 12:06:39.686 TRACE 32192 --- [http-nio-8082-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([phone_no9_2_] : [INTEGER]) - [2121]
+2022-11-01 12:06:39.686 TRACE 32192 --- [http-nio-8082-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([usernam10_2_] : [VARCHAR]) - [run3]
+2022-11-01 12:06:39.686 TRACE 32192 --- [http-nio-8082-exec-1] org.hibernate.type.CollectionType        : Created collection wrapper: [com.publicissapient.entity.User.roles#28]
+2022-11-01 12:06:39.687 TRACE 32192 --- [http-nio-8082-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [28]
+2022-11-01 12:06:39.688 TRACE 32192 --- [http-nio-8082-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_0_1_] : [INTEGER]) - [2]
+2022-11-01 12:06:39.688 TRACE 32192 --- [http-nio-8082-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_des2_0_1_] : [VARCHAR]) - [Staff]
+2022-11-01 12:06:39.688 TRACE 32192 --- [http-nio-8082-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_nam3_0_1_] : [VARCHAR]) - [STAFF]
+2022-11-01 12:06:39.688 TRACE 32192 --- [http-nio-8082-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_1_0_] : [INTEGER]) - [28]
+2022-11-01 12:06:39.688 TRACE 32192 --- [http-nio-8082-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_1_0_] : [INTEGER]) - [2]
+2022-11-01 12:06:39.691 DEBUG 32192 --- [http-nio-8082-exec-1] w.c.HttpSessionSecurityContextRepository : Did not store anonymous SecurityContext
+2022-11-01 12:06:39.692 DEBUG 32192 --- [http-nio-8082-exec-1] w.c.HttpSessionSecurityContextRepository : Did not store anonymous SecurityContext
+2022-11-01 12:06:39.692 DEBUG 32192 --- [http-nio-8082-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-11-01 12:07:43.720  INFO 32192 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 12:12:43.726  INFO 32192 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 12:17:43.734  INFO 32192 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 12:22:43.743  INFO 32192 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 12:27:43.759  INFO 32192 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 12:32:43.770  INFO 32192 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 12:37:43.777  INFO 32192 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 12:42:43.783  INFO 32192 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 12:47:43.789  INFO 32192 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 12:52:43.797  INFO 32192 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

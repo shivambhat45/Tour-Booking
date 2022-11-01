@@ -1,0 +1,9 @@
+
+{
+java:S3655U"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(¢ìñòüÿÿÿÿH©RMAJORZBUG
+{
+java:S3655B"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(²ŠÁñşÿÿÿÿH©RMAJORZBUG
+w	java:S112K"FDefine and throw a dedicated exception instead of using a generic one.(ø¶¡ÖıÿÿÿÿHŠ©RMAJORZ
+CODE_SMELL
+{
+java:S3655S"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Àåó‚úÿÿÿÿH‘©RMAJORZBUG

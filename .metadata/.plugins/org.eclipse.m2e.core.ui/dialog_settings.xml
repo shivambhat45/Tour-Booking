@@ -92,6 +92,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\shibhat2\Training\Mock-Project\Tour-Booking-Mock-Project\TourBooking"/>
 			<item value="C:\Users\shibhat2\Training\Day-39 11-10-2022\STS_Workspace"/>
 		</list>
 		<list key="projectNameTemplate">

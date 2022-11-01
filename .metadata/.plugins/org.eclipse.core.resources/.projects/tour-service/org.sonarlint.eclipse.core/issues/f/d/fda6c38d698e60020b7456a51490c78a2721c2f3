@@ -1,0 +1,21 @@
+
+r	java:S107%"AConstructor has 9 parameters, which is greater than 7 authorized.(€˜«ıÿÿÿÿH¥©RMAJORZ
+CODE_SMELL
+\
+java:S1068"*Remove this unused "userId" private field.(±­Ú§ÿÿÿÿÿH¦©RMAJORZ
+CODE_SMELL
+Y
+java:S1068"'Remove this unused "age" private field.(‘„û»øÿÿÿÿH¨©RMAJORZ
+CODE_SMELL
+]
+java:S1068"+Remove this unused "phoneNo" private field.(™¨Ğ©üÿÿÿÿHª©RMAJORZ
+CODE_SMELL
+]
+java:S1068"+Remove this unused "address" private field.(÷§ùÿÿÿÿH¬©RMAJORZ
+CODE_SMELL
+W
+java:S1068"*Remove this unused "gender" private field.(ÀÄŒH®©RMAJORZ
+CODE_SMELL
+^
+java:S1068",Remove this unused "password" private field.(œãë­úÿÿÿÿH°©RMAJORZ
+CODE_SMELL
