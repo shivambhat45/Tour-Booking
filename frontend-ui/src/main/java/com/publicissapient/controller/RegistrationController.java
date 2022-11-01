@@ -34,13 +34,13 @@ public class RegistrationController {
 	@GetMapping(path="/login")
 	public void homePage(HttpServletResponse httpServletResponse) throws IOException
 	{
-		httpServletResponse.sendRedirect("http://3.84.213.42:8082/login");
+		httpServletResponse.sendRedirect("http://34.229.14.37:8082/login");
 	}
 
 	@GetMapping(path="/logout")
 	public void loginPage(HttpServletResponse httpServletResponse) throws IOException
 	{
-		httpServletResponse.sendRedirect("http://3.84.213.42:8082/logout");
+		httpServletResponse.sendRedirect("http://34.229.14.37:8082/logout");
 	}
 
 	

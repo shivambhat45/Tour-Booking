@@ -1,8 +1,8 @@
 
-r	java:S112|"FDefine and throw a dedicated exception instead of using a generic one.(ιάψ¤Hÿ¨RMAJORZ
-CODE_SMELL
 ‡
-java:S3776a"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(°ΑªώÿÿÿÿH©RCRITICALZ
+java:S3776a"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(°ΑªώÿÿÿÿH’ªRCRITICALZ
 CODE_SMELL
-w	java:S112y"FDefine and throw a dedicated exception instead of using a generic one.(§Ω°υύÿÿÿÿH€©RMAJORZ
+w	java:S112y"FDefine and throw a dedicated exception instead of using a generic one.(§Ω°υύÿÿÿÿH‘ªRMAJORZ
+CODE_SMELL
+r	java:S112|"FDefine and throw a dedicated exception instead of using a generic one.(ιάψ¤HªRMAJORZ
 CODE_SMELL

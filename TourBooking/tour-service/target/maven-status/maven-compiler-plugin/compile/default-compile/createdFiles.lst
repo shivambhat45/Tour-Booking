@@ -1,6 +1,7 @@
 com\publicissapient\repository\PackageRepo.class
 com\publicissapient\service\CustomerService.class
 com\publicissapient\dto\EmailMessageDto.class
+com\publicissapient\constants\Constants.class
 com\publicissapient\controller\AdminController.class
 com\publicissapient\service\AdminServiceImpl.class
 com\publicissapient\service\CustomerServiceImpl.class

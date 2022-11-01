@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="rest"/>
+		<item key="selection" value=""/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="8083"/>
+			<item value="8087"/>
 			<item value="rest"/>
+			<item value="false"/>
+			<item value="False"/>
 			<item value="&quot;Content-Type&quot;"/>
 			<item value="&quot;Accept&quot;"/>
 			<item value="Accept"/>
@@ -19,15 +23,11 @@
 			<item value="post"/>
 			<item value="when"/>
 			<item value="9090"/>
-			<item value="userdto"/>
-			<item value="content-type"/>
-			<item value="booking"/>
-			<item value="list"/>
 		</list>
 		<list key="replacehistory">
+			<item value="8087"/>
 			<item value="CONTENT_TYPE"/>
 			<item value="ACCEPT"/>
-			<item value="8087"/>
 			<item value="CONTENTTYPE"/>
 		</list>
 	</section>

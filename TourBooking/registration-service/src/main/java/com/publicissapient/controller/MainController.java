@@ -30,7 +30,7 @@ public class MainController {
 	@GetMapping("/")
 	@Timed(value = "request.home")
 	public void home(HttpServletResponse httpServletResponse) throws IOException {
-		httpServletResponse.sendRedirect("http://3.84.213.42:8086/home");
+		httpServletResponse.sendRedirect("http://34.229.14.37:8086/home");
 	}
 
 	@GetMapping("/find/{userId}")
