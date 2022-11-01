@@ -80,7 +80,7 @@ public class CustomerServiceImpl implements CustomerService {
 	@Override
 	public Integer makePayment(Integer bookingId) throws BookingNotFoundException {
 		if (bookingRepository.existsById(bookingId)
-				&& bookingRepository.findById(bookingId).get().getPaymentStatus().equals("False")) {
+				&& bookingRepository.findById(bookingId).get().getPaymentStatus().equals("FALSE")) {
 			bookingRepository.makePayment("TRUE", "Booking-Confirmed", bookingId);
 			Booking bookingDetails = bookingRepository.findById(bookingId).get();
 			HttpHeaders headers = new HttpHeaders();

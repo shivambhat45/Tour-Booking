@@ -1939,3 +1939,924 @@ Original Stack Trace:
 2022-11-01 12:53:23.879  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2022-11-01 12:53:27.546 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
 2022-11-01 12:53:57.570 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 12:54:27.601 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 12:54:57.624 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 12:55:27.647 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 12:55:57.669 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 12:56:27.690 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 12:56:57.719 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 12:57:27.744 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 12:57:57.781 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 12:58:23.895  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 12:58:27.810 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 12:58:57.835 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 12:59:27.866 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 12:59:57.901 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:00:27.939 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:00:57.962 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:01:27.985 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:01:58.054 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:02:28.080 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:02:58.107 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:03:23.908  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 13:03:28.142 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:03:58.184 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:04:28.225 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:04:58.260 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:05:28.294 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:05:58.322 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:06:28.347 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:06:58.378 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:07:28.413 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:07:58.459 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:08:23.917  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 13:08:28.493 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:08:58.522 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:09:28.559 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:09:58.587 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:10:28.622 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:10:58.658 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:11:28.688 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:11:58.721 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:12:28.752 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:12:58.781 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:13:23.926  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 13:13:28.836 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:13:58.866 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:14:28.888 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:14:58.924 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:15:28.947 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:15:58.984 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:16:29.014 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:16:59.046 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:17:29.080 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:17:59.102 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:18:23.931  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 13:18:29.135 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:18:59.158 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:19:29.182 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:19:59.105 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:20:28.898 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:20:58.894 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:21:28.988 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:21:59.048 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:22:29.077 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:22:59.101 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:23:23.688  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 13:23:29.128 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:23:59.157 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:24:29.188 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:24:59.208 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:25:29.238 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:25:59.268 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:26:29.292 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:26:59.317 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:27:29.338 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:27:59.364 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:28:23.707  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 13:28:29.386 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:28:59.414 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:29:29.446 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:29:59.468 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:30:29.490 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:30:59.516 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:31:29.547 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:31:59.584 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:32:29.608 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:32:59.633 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:33:23.718  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 13:33:29.655 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:33:59.688 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:34:29.708 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:34:59.727 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:35:29.754 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:35:59.782 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:36:29.804 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:36:59.840 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:37:29.858 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:37:59.883 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:38:23.733  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 13:38:29.906 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:38:59.926 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:39:29.946 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:39:59.978 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:40:30.001 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:41:00.028 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:41:30.062 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:42:00.086 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:42:30.110 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:43:00.140 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:43:23.741  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 13:43:30.167 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:44:00.200 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:44:30.229 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:45:00.254 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:45:30.284 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:46:00.310 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:46:30.340 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:47:00.360 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:47:30.380 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:48:00.400 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:48:23.744  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 13:48:30.426 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:49:00.451 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:49:30.478 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:50:00.504 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:50:30.526 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:51:00.551 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:51:30.582 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:52:00.605 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:52:30.637 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:53:00.662 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:53:23.749  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 13:53:30.694 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:54:00.714 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:54:30.746 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:55:00.776 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:55:30.794 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:56:00.827 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:56:30.848 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:57:00.875 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:57:30.895 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:58:00.924 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:58:23.761  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 13:58:30.949 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:59:00.977 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 13:59:31.001 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:00:01.029 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:00:31.050 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:01:01.079 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:01:31.103 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:02:01.128 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:02:31.148 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:03:01.182 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:03:23.776  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 14:03:31.212 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:04:01.236 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:04:31.258 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:05:01.281 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:05:31.301 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:06:01.321 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:06:31.343 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:07:01.365 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:07:31.396 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:08:01.430 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:08:23.789  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 14:08:31.472 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:09:01.491 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:09:31.520 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:10:01.543 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:10:31.562 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:11:01.588 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:11:31.620 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:12:01.649 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:12:31.669 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:13:01.692 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:13:23.777  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 14:13:31.716 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:14:01.747 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:14:31.769 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:15:01.796 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:15:31.828 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:16:01.854 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:16:31.884 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:17:01.904 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:17:31.933 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:18:01.954 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:18:23.782  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 14:18:31.977 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:19:02.010 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:19:32.029 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:20:02.054 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:20:32.087 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:21:02.115 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:21:32.135 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:22:02.162 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:22:32.191 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:23:02.210 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:23:23.787  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 14:23:32.240 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:24:02.274 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:24:32.295 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:25:02.325 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:25:32.348 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:26:02.375 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:26:32.402 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:27:02.428 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:27:32.450 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:28:02.471 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:28:23.795  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 14:28:32.493 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:29:02.524 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:29:32.552 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:30:02.581 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:30:32.607 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:31:02.627 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:31:32.653 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:32:02.674 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:32:32.700 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:33:02.726 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:33:23.801  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 14:33:32.759 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:34:02.793 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:34:32.817 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:35:02.841 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:35:32.871 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:36:02.893 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:36:32.916 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:37:02.947 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:37:32.976 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:38:03.011 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:38:23.811  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 14:38:33.037 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:39:03.067 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:39:33.092 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:40:03.120 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:40:33.139 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:41:03.169 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:41:33.193 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:42:03.235 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:42:33.259 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:43:03.282 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:43:23.818  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 14:43:33.304 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:44:03.322 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:44:33.352 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:45:03.378 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:45:33.409 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:46:03.435 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:46:33.457 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:47:03.488 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:47:33.518 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:48:03.538 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:48:23.823  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 14:48:33.561 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:49:03.594 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:49:33.614 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:50:03.638 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:50:33.670 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:51:03.692 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:51:33.723 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:52:03.741 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:52:33.762 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:53:03.791 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:53:23.836  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 14:53:33.813 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:54:03.834 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:54:33.856 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:55:03.875 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:55:33.901 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:56:03.924 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:56:09.884 TRACE 19676 --- [reactor-http-nio-6] o.s.c.g.f.WeightCalculatorWebFilter      : Weights attr: {}
+2022-11-01 14:56:09.888 TRACE 19676 --- [reactor-http-nio-6] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/registration/**]" does not match against value "/customer/listPackages"
+2022-11-01 14:56:09.890 TRACE 19676 --- [reactor-http-nio-6] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/admin/**]" does not match against value "/customer/listPackages"
+2022-11-01 14:56:09.890 TRACE 19676 --- [reactor-http-nio-6] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "/customer/**" matches against value "/customer/listPackages"
+2022-11-01 14:56:09.890 DEBUG 19676 --- [reactor-http-nio-6] o.s.c.g.h.RoutePredicateHandlerMapping   : Route matched: 9d426ced-4a48-4950-b15e-6ba3bb95677d
+2022-11-01 14:56:09.891 DEBUG 19676 --- [reactor-http-nio-6] o.s.c.g.h.RoutePredicateHandlerMapping   : Mapping [Exchange: GET http://localhost:8087/customer/listPackages] to Route{id='9d426ced-4a48-4950-b15e-6ba3bb95677d', uri=lb://tour-service/, order=0, predicate=Paths: [/customer/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2022-11-01 14:56:09.891 DEBUG 19676 --- [reactor-http-nio-6] o.s.c.g.h.RoutePredicateHandlerMapping   : [5ea0c994-5] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@23e4db45
+2022-11-01 14:56:09.891 DEBUG 19676 --- [reactor-http-nio-6] o.s.c.g.handler.FilteringWebHandler      : Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@6ffd4c0d}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@310a7859}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@34c53688}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@149274cb}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.GatewayMetricsFilter@72557746}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@74c9e11}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ReactiveLoadBalancerClientFilter@31b0f02}, order = 10150], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerServiceInstanceCookieFilter@19ae2ee5}, order = 10151], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@118acf70}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@44b940a2}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@9fe720a}, order = 2147483647]]
+2022-11-01 14:56:09.891 TRACE 19676 --- [reactor-http-nio-6] o.s.c.g.filter.RouteToRequestUrlFilter   : RouteToRequestUrlFilter start
+2022-11-01 14:56:09.894 TRACE 19676 --- [reactor-http-nio-6] s.c.g.f.ReactiveLoadBalancerClientFilter : ReactiveLoadBalancerClientFilter url before: lb://tour-service/customer/listPackages
+2022-11-01 14:56:10.006 DEBUG 19676 --- [reactor-http-nio-6] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:56:10.044 TRACE 19676 --- [reactor-http-nio-6] s.c.g.f.ReactiveLoadBalancerClientFilter : LoadBalancerClientFilter url chosen: http://host.docker.internal:8083/customer/listPackages
+2022-11-01 14:56:31.149 ERROR 19676 --- [reactor-http-nio-6] a.w.r.e.AbstractErrorWebExceptionHandler : [5ea0c994-5]  500 Server Error for HTTP GET "/customer/listPackages"
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection timed out: no further information: host.docker.internal/192.168.1.34:8083
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/customer/listPackages" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779) ~[na:na]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-11-01 14:56:31.175 TRACE 19676 --- [reactor-http-nio-6] o.s.c.g.filter.GatewayMetricsFilter      : spring.cloud.gateway.requests tags: [tag(httpMethod=GET),tag(httpStatusCode=500),tag(outcome=SERVER_ERROR),tag(routeId=9d426ced-4a48-4950-b15e-6ba3bb95677d),tag(routeUri=lb://tour-service/),tag(status=INTERNAL_SERVER_ERROR)]
+2022-11-01 14:56:33.956 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:57:03.986 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:57:10.193 TRACE 19676 --- [reactor-http-nio-7] o.s.c.g.f.WeightCalculatorWebFilter      : Weights attr: {}
+2022-11-01 14:57:10.194 TRACE 19676 --- [reactor-http-nio-7] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/registration/**]" does not match against value "/list"
+2022-11-01 14:57:10.194 TRACE 19676 --- [reactor-http-nio-7] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/admin/**]" does not match against value "/list"
+2022-11-01 14:57:10.194 TRACE 19676 --- [reactor-http-nio-7] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/customer/**]" does not match against value "/list"
+2022-11-01 14:57:10.194 TRACE 19676 --- [reactor-http-nio-7] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/email/**]" does not match against value "/list"
+2022-11-01 14:57:10.194 TRACE 19676 --- [reactor-http-nio-7] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "/**" matches against value "/list"
+2022-11-01 14:57:10.195 DEBUG 19676 --- [reactor-http-nio-7] o.s.c.g.h.RoutePredicateHandlerMapping   : Route matched: 8cf19dbd-44a6-40e8-89dc-fbd4a32af5fc
+2022-11-01 14:57:10.221 DEBUG 19676 --- [reactor-http-nio-7] o.s.c.g.h.RoutePredicateHandlerMapping   : Mapping [Exchange: GET http://localhost:8087/list] to Route{id='8cf19dbd-44a6-40e8-89dc-fbd4a32af5fc', uri=http://localhost:8082/, order=0, predicate=Paths: [/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2022-11-01 14:57:10.221 DEBUG 19676 --- [reactor-http-nio-7] o.s.c.g.h.RoutePredicateHandlerMapping   : [32469c8c-6] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@23e4db45
+2022-11-01 14:57:10.223 DEBUG 19676 --- [reactor-http-nio-7] o.s.c.g.handler.FilteringWebHandler      : Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@6ffd4c0d}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@310a7859}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@34c53688}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@149274cb}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.GatewayMetricsFilter@72557746}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@74c9e11}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ReactiveLoadBalancerClientFilter@31b0f02}, order = 10150], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerServiceInstanceCookieFilter@19ae2ee5}, order = 10151], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@118acf70}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@44b940a2}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@9fe720a}, order = 2147483647]]
+2022-11-01 14:57:10.224 TRACE 19676 --- [reactor-http-nio-7] o.s.c.g.filter.RouteToRequestUrlFilter   : RouteToRequestUrlFilter start
+2022-11-01 14:57:10.231 TRACE 19676 --- [reactor-http-nio-7] o.s.c.gateway.filter.NettyRoutingFilter  : outbound route: a40b9c46, inbound: [32469c8c-6] 
+2022-11-01 14:57:10.338 TRACE 19676 --- [reactor-http-nio-7] o.s.c.g.filter.NettyWriteResponseFilter  : NettyWriteResponseFilter start inbound: a40b9c46, outbound: [32469c8c-6] 
+2022-11-01 14:57:10.340 TRACE 19676 --- [reactor-http-nio-7] o.s.c.g.filter.GatewayMetricsFilter      : spring.cloud.gateway.requests tags: [tag(httpMethod=GET),tag(httpStatusCode=200),tag(outcome=SUCCESSFUL),tag(routeId=8cf19dbd-44a6-40e8-89dc-fbd4a32af5fc),tag(routeUri=http://localhost:8082/),tag(status=OK)]
+2022-11-01 14:57:15.778 TRACE 19676 --- [reactor-http-nio-8] o.s.c.g.f.WeightCalculatorWebFilter      : Weights attr: {}
+2022-11-01 14:57:15.780 TRACE 19676 --- [reactor-http-nio-8] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/registration/**]" does not match against value "/customer/listPackages"
+2022-11-01 14:57:15.781 TRACE 19676 --- [reactor-http-nio-8] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/admin/**]" does not match against value "/customer/listPackages"
+2022-11-01 14:57:15.781 TRACE 19676 --- [reactor-http-nio-8] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "/customer/**" matches against value "/customer/listPackages"
+2022-11-01 14:57:15.781 DEBUG 19676 --- [reactor-http-nio-8] o.s.c.g.h.RoutePredicateHandlerMapping   : Route matched: 9d426ced-4a48-4950-b15e-6ba3bb95677d
+2022-11-01 14:57:15.782 DEBUG 19676 --- [reactor-http-nio-8] o.s.c.g.h.RoutePredicateHandlerMapping   : Mapping [Exchange: GET http://localhost:8087/customer/listPackages] to Route{id='9d426ced-4a48-4950-b15e-6ba3bb95677d', uri=lb://tour-service/, order=0, predicate=Paths: [/customer/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2022-11-01 14:57:15.782 DEBUG 19676 --- [reactor-http-nio-8] o.s.c.g.h.RoutePredicateHandlerMapping   : [5e77d3ad-7] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@23e4db45
+2022-11-01 14:57:15.782 DEBUG 19676 --- [reactor-http-nio-8] o.s.c.g.handler.FilteringWebHandler      : Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@6ffd4c0d}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@310a7859}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@34c53688}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@149274cb}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.GatewayMetricsFilter@72557746}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@74c9e11}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ReactiveLoadBalancerClientFilter@31b0f02}, order = 10150], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerServiceInstanceCookieFilter@19ae2ee5}, order = 10151], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@118acf70}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@44b940a2}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@9fe720a}, order = 2147483647]]
+2022-11-01 14:57:15.782 TRACE 19676 --- [reactor-http-nio-8] o.s.c.g.filter.RouteToRequestUrlFilter   : RouteToRequestUrlFilter start
+2022-11-01 14:57:15.782 TRACE 19676 --- [reactor-http-nio-8] s.c.g.f.ReactiveLoadBalancerClientFilter : ReactiveLoadBalancerClientFilter url before: lb://tour-service/customer/listPackages
+2022-11-01 14:57:15.785 TRACE 19676 --- [reactor-http-nio-8] s.c.g.f.ReactiveLoadBalancerClientFilter : LoadBalancerClientFilter url chosen: http://host.docker.internal:8083/customer/listPackages
+2022-11-01 14:57:18.281 TRACE 19676 --- [reactor-http-nio-1] o.s.c.g.f.WeightCalculatorWebFilter      : Weights attr: {}
+2022-11-01 14:57:18.283 TRACE 19676 --- [reactor-http-nio-1] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/registration/**]" does not match against value "/customer/listPackages"
+2022-11-01 14:57:18.284 TRACE 19676 --- [reactor-http-nio-1] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/admin/**]" does not match against value "/customer/listPackages"
+2022-11-01 14:57:18.284 TRACE 19676 --- [reactor-http-nio-1] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "/customer/**" matches against value "/customer/listPackages"
+2022-11-01 14:57:18.284 DEBUG 19676 --- [reactor-http-nio-1] o.s.c.g.h.RoutePredicateHandlerMapping   : Route matched: 9d426ced-4a48-4950-b15e-6ba3bb95677d
+2022-11-01 14:57:18.285 DEBUG 19676 --- [reactor-http-nio-1] o.s.c.g.h.RoutePredicateHandlerMapping   : Mapping [Exchange: GET http://localhost:8087/customer/listPackages] to Route{id='9d426ced-4a48-4950-b15e-6ba3bb95677d', uri=lb://tour-service/, order=0, predicate=Paths: [/customer/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2022-11-01 14:57:18.285 DEBUG 19676 --- [reactor-http-nio-1] o.s.c.g.h.RoutePredicateHandlerMapping   : [98aa58df-8] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@23e4db45
+2022-11-01 14:57:18.285 DEBUG 19676 --- [reactor-http-nio-1] o.s.c.g.handler.FilteringWebHandler      : Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@6ffd4c0d}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@310a7859}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@34c53688}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@149274cb}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.GatewayMetricsFilter@72557746}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@74c9e11}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ReactiveLoadBalancerClientFilter@31b0f02}, order = 10150], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerServiceInstanceCookieFilter@19ae2ee5}, order = 10151], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@118acf70}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@44b940a2}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@9fe720a}, order = 2147483647]]
+2022-11-01 14:57:18.285 TRACE 19676 --- [reactor-http-nio-1] o.s.c.g.filter.RouteToRequestUrlFilter   : RouteToRequestUrlFilter start
+2022-11-01 14:57:18.285 TRACE 19676 --- [reactor-http-nio-1] s.c.g.f.ReactiveLoadBalancerClientFilter : ReactiveLoadBalancerClientFilter url before: lb://tour-service/customer/listPackages
+2022-11-01 14:57:18.286 TRACE 19676 --- [reactor-http-nio-1] s.c.g.f.ReactiveLoadBalancerClientFilter : LoadBalancerClientFilter url chosen: http://host.docker.internal:8083/customer/listPackages
+2022-11-01 14:57:20.049 TRACE 19676 --- [reactor-http-nio-2] o.s.c.g.f.WeightCalculatorWebFilter      : Weights attr: {}
+2022-11-01 14:57:20.052 TRACE 19676 --- [reactor-http-nio-2] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/registration/**]" does not match against value "/customer/listPackages"
+2022-11-01 14:57:20.053 TRACE 19676 --- [reactor-http-nio-2] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/admin/**]" does not match against value "/customer/listPackages"
+2022-11-01 14:57:20.053 TRACE 19676 --- [reactor-http-nio-2] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "/customer/**" matches against value "/customer/listPackages"
+2022-11-01 14:57:20.053 DEBUG 19676 --- [reactor-http-nio-2] o.s.c.g.h.RoutePredicateHandlerMapping   : Route matched: 9d426ced-4a48-4950-b15e-6ba3bb95677d
+2022-11-01 14:57:20.054 DEBUG 19676 --- [reactor-http-nio-2] o.s.c.g.h.RoutePredicateHandlerMapping   : Mapping [Exchange: GET http://localhost:8087/customer/listPackages] to Route{id='9d426ced-4a48-4950-b15e-6ba3bb95677d', uri=lb://tour-service/, order=0, predicate=Paths: [/customer/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2022-11-01 14:57:20.054 DEBUG 19676 --- [reactor-http-nio-2] o.s.c.g.h.RoutePredicateHandlerMapping   : [c25ccf6e-9] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@23e4db45
+2022-11-01 14:57:20.054 DEBUG 19676 --- [reactor-http-nio-2] o.s.c.g.handler.FilteringWebHandler      : Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@6ffd4c0d}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@310a7859}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@34c53688}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@149274cb}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.GatewayMetricsFilter@72557746}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@74c9e11}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ReactiveLoadBalancerClientFilter@31b0f02}, order = 10150], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerServiceInstanceCookieFilter@19ae2ee5}, order = 10151], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@118acf70}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@44b940a2}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@9fe720a}, order = 2147483647]]
+2022-11-01 14:57:20.054 TRACE 19676 --- [reactor-http-nio-2] o.s.c.g.filter.RouteToRequestUrlFilter   : RouteToRequestUrlFilter start
+2022-11-01 14:57:20.054 TRACE 19676 --- [reactor-http-nio-2] s.c.g.f.ReactiveLoadBalancerClientFilter : ReactiveLoadBalancerClientFilter url before: lb://tour-service/customer/listPackages
+2022-11-01 14:57:20.055 TRACE 19676 --- [reactor-http-nio-2] s.c.g.f.ReactiveLoadBalancerClientFilter : LoadBalancerClientFilter url chosen: http://host.docker.internal:8083/customer/listPackages
+2022-11-01 14:57:24.236 TRACE 19676 --- [reactor-http-nio-3] o.s.c.g.f.WeightCalculatorWebFilter      : Weights attr: {}
+2022-11-01 14:57:24.237 TRACE 19676 --- [reactor-http-nio-3] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/registration/**]" does not match against value "/list"
+2022-11-01 14:57:24.237 TRACE 19676 --- [reactor-http-nio-3] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/admin/**]" does not match against value "/list"
+2022-11-01 14:57:24.237 TRACE 19676 --- [reactor-http-nio-3] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/customer/**]" does not match against value "/list"
+2022-11-01 14:57:24.237 TRACE 19676 --- [reactor-http-nio-3] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/email/**]" does not match against value "/list"
+2022-11-01 14:57:24.238 TRACE 19676 --- [reactor-http-nio-3] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "/**" matches against value "/list"
+2022-11-01 14:57:24.238 DEBUG 19676 --- [reactor-http-nio-3] o.s.c.g.h.RoutePredicateHandlerMapping   : Route matched: 8cf19dbd-44a6-40e8-89dc-fbd4a32af5fc
+2022-11-01 14:57:24.238 DEBUG 19676 --- [reactor-http-nio-3] o.s.c.g.h.RoutePredicateHandlerMapping   : Mapping [Exchange: GET http://localhost:8087/list] to Route{id='8cf19dbd-44a6-40e8-89dc-fbd4a32af5fc', uri=http://localhost:8082/, order=0, predicate=Paths: [/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2022-11-01 14:57:24.238 DEBUG 19676 --- [reactor-http-nio-3] o.s.c.g.h.RoutePredicateHandlerMapping   : [bf8ed460-10] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@23e4db45
+2022-11-01 14:57:24.238 DEBUG 19676 --- [reactor-http-nio-3] o.s.c.g.handler.FilteringWebHandler      : Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@6ffd4c0d}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@310a7859}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@34c53688}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@149274cb}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.GatewayMetricsFilter@72557746}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@74c9e11}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ReactiveLoadBalancerClientFilter@31b0f02}, order = 10150], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerServiceInstanceCookieFilter@19ae2ee5}, order = 10151], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@118acf70}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@44b940a2}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@9fe720a}, order = 2147483647]]
+2022-11-01 14:57:24.238 TRACE 19676 --- [reactor-http-nio-3] o.s.c.g.filter.RouteToRequestUrlFilter   : RouteToRequestUrlFilter start
+2022-11-01 14:57:24.240 TRACE 19676 --- [reactor-http-nio-7] o.s.c.gateway.filter.NettyRoutingFilter  : outbound route: a40b9c46, inbound: [bf8ed460-10] 
+2022-11-01 14:57:24.283 TRACE 19676 --- [reactor-http-nio-7] o.s.c.g.filter.NettyWriteResponseFilter  : NettyWriteResponseFilter start inbound: a40b9c46, outbound: [bf8ed460-10] 
+2022-11-01 14:57:24.284 TRACE 19676 --- [reactor-http-nio-7] o.s.c.g.filter.GatewayMetricsFilter      : spring.cloud.gateway.requests tags: [tag(httpMethod=GET),tag(httpStatusCode=200),tag(outcome=SUCCESSFUL),tag(routeId=8cf19dbd-44a6-40e8-89dc-fbd4a32af5fc),tag(routeUri=http://localhost:8082/),tag(status=OK)]
+2022-11-01 14:57:25.876 TRACE 19676 --- [reactor-http-nio-3] o.s.c.g.f.WeightCalculatorWebFilter      : Weights attr: {}
+2022-11-01 14:57:25.876 TRACE 19676 --- [reactor-http-nio-3] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/registration/**]" does not match against value "/customer/listPackages"
+2022-11-01 14:57:25.876 TRACE 19676 --- [reactor-http-nio-3] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/admin/**]" does not match against value "/customer/listPackages"
+2022-11-01 14:57:25.877 TRACE 19676 --- [reactor-http-nio-3] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "/customer/**" matches against value "/customer/listPackages"
+2022-11-01 14:57:25.877 DEBUG 19676 --- [reactor-http-nio-3] o.s.c.g.h.RoutePredicateHandlerMapping   : Route matched: 9d426ced-4a48-4950-b15e-6ba3bb95677d
+2022-11-01 14:57:25.877 DEBUG 19676 --- [reactor-http-nio-3] o.s.c.g.h.RoutePredicateHandlerMapping   : Mapping [Exchange: GET http://localhost:8087/customer/listPackages] to Route{id='9d426ced-4a48-4950-b15e-6ba3bb95677d', uri=lb://tour-service/, order=0, predicate=Paths: [/customer/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2022-11-01 14:57:25.877 DEBUG 19676 --- [reactor-http-nio-3] o.s.c.g.h.RoutePredicateHandlerMapping   : [bf8ed460-11] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@23e4db45
+2022-11-01 14:57:25.879 DEBUG 19676 --- [reactor-http-nio-3] o.s.c.g.handler.FilteringWebHandler      : Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@6ffd4c0d}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@310a7859}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@34c53688}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@149274cb}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.GatewayMetricsFilter@72557746}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@74c9e11}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ReactiveLoadBalancerClientFilter@31b0f02}, order = 10150], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerServiceInstanceCookieFilter@19ae2ee5}, order = 10151], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@118acf70}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@44b940a2}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@9fe720a}, order = 2147483647]]
+2022-11-01 14:57:25.879 TRACE 19676 --- [reactor-http-nio-3] o.s.c.g.filter.RouteToRequestUrlFilter   : RouteToRequestUrlFilter start
+2022-11-01 14:57:25.879 TRACE 19676 --- [reactor-http-nio-3] s.c.g.f.ReactiveLoadBalancerClientFilter : ReactiveLoadBalancerClientFilter url before: lb://tour-service/customer/listPackages
+2022-11-01 14:57:25.880 TRACE 19676 --- [reactor-http-nio-3] s.c.g.f.ReactiveLoadBalancerClientFilter : LoadBalancerClientFilter url chosen: http://host.docker.internal:8083/customer/listPackages
+2022-11-01 14:57:34.016 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:57:36.835 ERROR 19676 --- [reactor-http-nio-8] a.w.r.e.AbstractErrorWebExceptionHandler : [5e77d3ad-7]  500 Server Error for HTTP GET "/customer/listPackages"
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection timed out: no further information: host.docker.internal/192.168.1.34:8083
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/customer/listPackages" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779) ~[na:na]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-11-01 14:57:36.837 TRACE 19676 --- [reactor-http-nio-8] o.s.c.g.filter.GatewayMetricsFilter      : spring.cloud.gateway.requests tags: [tag(httpMethod=GET),tag(httpStatusCode=500),tag(outcome=SERVER_ERROR),tag(routeId=9d426ced-4a48-4950-b15e-6ba3bb95677d),tag(routeUri=lb://tour-service/),tag(status=INTERNAL_SERVER_ERROR)]
+2022-11-01 14:57:39.345 ERROR 19676 --- [reactor-http-nio-1] a.w.r.e.AbstractErrorWebExceptionHandler : [98aa58df-8]  500 Server Error for HTTP GET "/customer/listPackages"
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection timed out: no further information: host.docker.internal/192.168.1.34:8083
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/customer/listPackages" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779) ~[na:na]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-11-01 14:57:39.348 TRACE 19676 --- [reactor-http-nio-1] o.s.c.g.filter.GatewayMetricsFilter      : spring.cloud.gateway.requests tags: [tag(httpMethod=GET),tag(httpStatusCode=500),tag(outcome=SERVER_ERROR),tag(routeId=9d426ced-4a48-4950-b15e-6ba3bb95677d),tag(routeUri=lb://tour-service/),tag(status=INTERNAL_SERVER_ERROR)]
+2022-11-01 14:57:41.102 ERROR 19676 --- [reactor-http-nio-2] a.w.r.e.AbstractErrorWebExceptionHandler : [c25ccf6e-9]  500 Server Error for HTTP GET "/customer/listPackages"
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection timed out: no further information: host.docker.internal/192.168.1.34:8083
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/customer/listPackages" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779) ~[na:na]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-11-01 14:57:41.104 TRACE 19676 --- [reactor-http-nio-2] o.s.c.g.filter.GatewayMetricsFilter      : spring.cloud.gateway.requests tags: [tag(httpMethod=GET),tag(httpStatusCode=500),tag(outcome=SERVER_ERROR),tag(routeId=9d426ced-4a48-4950-b15e-6ba3bb95677d),tag(routeUri=lb://tour-service/),tag(status=INTERNAL_SERVER_ERROR)]
+2022-11-01 14:57:46.926 ERROR 19676 --- [reactor-http-nio-3] a.w.r.e.AbstractErrorWebExceptionHandler : [bf8ed460-11]  500 Server Error for HTTP GET "/customer/listPackages"
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection timed out: no further information: host.docker.internal/192.168.1.34:8083
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/customer/listPackages" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779) ~[na:na]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-11-01 14:57:46.928 TRACE 19676 --- [reactor-http-nio-3] o.s.c.g.filter.GatewayMetricsFilter      : spring.cloud.gateway.requests tags: [tag(httpMethod=GET),tag(httpStatusCode=500),tag(outcome=SERVER_ERROR),tag(routeId=9d426ced-4a48-4950-b15e-6ba3bb95677d),tag(routeUri=lb://tour-service/),tag(status=INTERNAL_SERVER_ERROR)]
+2022-11-01 14:58:04.035 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:58:23.833  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 14:58:34.068 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:59:04.099 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 14:59:21.643 TRACE 19676 --- [reactor-http-nio-4] o.s.c.g.f.WeightCalculatorWebFilter      : Weights attr: {}
+2022-11-01 14:59:21.645 TRACE 19676 --- [reactor-http-nio-4] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/registration/**]" does not match against value "/list"
+2022-11-01 14:59:21.646 TRACE 19676 --- [reactor-http-nio-4] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/admin/**]" does not match against value "/list"
+2022-11-01 14:59:21.646 TRACE 19676 --- [reactor-http-nio-4] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/customer/**]" does not match against value "/list"
+2022-11-01 14:59:21.646 TRACE 19676 --- [reactor-http-nio-4] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/email/**]" does not match against value "/list"
+2022-11-01 14:59:21.646 TRACE 19676 --- [reactor-http-nio-4] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "/**" matches against value "/list"
+2022-11-01 14:59:21.647 DEBUG 19676 --- [reactor-http-nio-4] o.s.c.g.h.RoutePredicateHandlerMapping   : Route matched: 8cf19dbd-44a6-40e8-89dc-fbd4a32af5fc
+2022-11-01 14:59:21.647 DEBUG 19676 --- [reactor-http-nio-4] o.s.c.g.h.RoutePredicateHandlerMapping   : Mapping [Exchange: GET http://localhost:8087/list] to Route{id='8cf19dbd-44a6-40e8-89dc-fbd4a32af5fc', uri=http://localhost:8082/, order=0, predicate=Paths: [/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2022-11-01 14:59:21.647 DEBUG 19676 --- [reactor-http-nio-4] o.s.c.g.h.RoutePredicateHandlerMapping   : [23dd4a15-12] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@23e4db45
+2022-11-01 14:59:21.647 DEBUG 19676 --- [reactor-http-nio-4] o.s.c.g.handler.FilteringWebHandler      : Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@6ffd4c0d}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@310a7859}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@34c53688}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@149274cb}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.GatewayMetricsFilter@72557746}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@74c9e11}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ReactiveLoadBalancerClientFilter@31b0f02}, order = 10150], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerServiceInstanceCookieFilter@19ae2ee5}, order = 10151], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@118acf70}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@44b940a2}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@9fe720a}, order = 2147483647]]
+2022-11-01 14:59:21.647 TRACE 19676 --- [reactor-http-nio-4] o.s.c.g.filter.RouteToRequestUrlFilter   : RouteToRequestUrlFilter start
+2022-11-01 14:59:21.652 TRACE 19676 --- [reactor-http-nio-4] o.s.c.gateway.filter.NettyRoutingFilter  : outbound route: 9acff21f, inbound: [23dd4a15-12] 
+2022-11-01 14:59:21.705 TRACE 19676 --- [reactor-http-nio-4] o.s.c.g.filter.NettyWriteResponseFilter  : NettyWriteResponseFilter start inbound: 9acff21f, outbound: [23dd4a15-12] 
+2022-11-01 14:59:21.706 TRACE 19676 --- [reactor-http-nio-4] o.s.c.g.filter.GatewayMetricsFilter      : spring.cloud.gateway.requests tags: [tag(httpMethod=GET),tag(httpStatusCode=200),tag(outcome=SUCCESSFUL),tag(routeId=8cf19dbd-44a6-40e8-89dc-fbd4a32af5fc),tag(routeUri=http://localhost:8082/),tag(status=OK)]
+2022-11-01 14:59:34.128 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:00:04.159 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:00:34.190 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:01:04.211 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:01:34.231 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:02:04.262 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:02:34.282 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:03:04.300 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:03:23.837  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 15:03:34.328 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:04:04.360 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:04:34.386 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:05:04.406 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:05:34.428 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:06:04.457 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:06:34.487 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:07:04.520 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:07:34.556 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:08:04.584 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:08:23.848  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 15:08:34.623 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:08:38.662 TRACE 19676 --- [reactor-http-nio-5] o.s.c.g.f.WeightCalculatorWebFilter      : Weights attr: {}
+2022-11-01 15:08:38.663 TRACE 19676 --- [reactor-http-nio-5] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/registration/**]" does not match against value "/list"
+2022-11-01 15:08:38.663 TRACE 19676 --- [reactor-http-nio-5] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/admin/**]" does not match against value "/list"
+2022-11-01 15:08:38.663 TRACE 19676 --- [reactor-http-nio-5] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/customer/**]" does not match against value "/list"
+2022-11-01 15:08:38.664 TRACE 19676 --- [reactor-http-nio-5] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/email/**]" does not match against value "/list"
+2022-11-01 15:08:38.664 TRACE 19676 --- [reactor-http-nio-5] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "/**" matches against value "/list"
+2022-11-01 15:08:38.664 DEBUG 19676 --- [reactor-http-nio-5] o.s.c.g.h.RoutePredicateHandlerMapping   : Route matched: 8cf19dbd-44a6-40e8-89dc-fbd4a32af5fc
+2022-11-01 15:08:38.665 DEBUG 19676 --- [reactor-http-nio-5] o.s.c.g.h.RoutePredicateHandlerMapping   : Mapping [Exchange: GET http://localhost:8087/list] to Route{id='8cf19dbd-44a6-40e8-89dc-fbd4a32af5fc', uri=http://localhost:8082/, order=0, predicate=Paths: [/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2022-11-01 15:08:38.665 DEBUG 19676 --- [reactor-http-nio-5] o.s.c.g.h.RoutePredicateHandlerMapping   : [75e862c0-13] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@23e4db45
+2022-11-01 15:08:38.665 DEBUG 19676 --- [reactor-http-nio-5] o.s.c.g.handler.FilteringWebHandler      : Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@6ffd4c0d}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@310a7859}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@34c53688}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@149274cb}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.GatewayMetricsFilter@72557746}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@74c9e11}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ReactiveLoadBalancerClientFilter@31b0f02}, order = 10150], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerServiceInstanceCookieFilter@19ae2ee5}, order = 10151], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@118acf70}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@44b940a2}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@9fe720a}, order = 2147483647]]
+2022-11-01 15:08:38.665 TRACE 19676 --- [reactor-http-nio-5] o.s.c.g.filter.RouteToRequestUrlFilter   : RouteToRequestUrlFilter start
+2022-11-01 15:08:38.674 TRACE 19676 --- [reactor-http-nio-5] o.s.c.gateway.filter.NettyRoutingFilter  : outbound route: 8ef3abda, inbound: [75e862c0-13] 
+2022-11-01 15:08:38.718 TRACE 19676 --- [reactor-http-nio-5] o.s.c.g.filter.NettyWriteResponseFilter  : NettyWriteResponseFilter start inbound: 8ef3abda, outbound: [75e862c0-13] 
+2022-11-01 15:08:38.719 TRACE 19676 --- [reactor-http-nio-5] o.s.c.g.filter.GatewayMetricsFilter      : spring.cloud.gateway.requests tags: [tag(httpMethod=GET),tag(httpStatusCode=200),tag(outcome=SUCCESSFUL),tag(routeId=8cf19dbd-44a6-40e8-89dc-fbd4a32af5fc),tag(routeUri=http://localhost:8082/),tag(status=OK)]
+2022-11-01 15:09:04.653 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:09:34.680 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:10:04.705 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:10:34.727 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:11:04.753 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:11:34.783 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:12:04.805 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:12:34.826 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:13:04.858 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:13:23.866  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 15:13:34.877 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:14:04.911 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:14:34.937 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:15:04.965 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:15:34.988 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:16:05.019 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:16:35.038 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:17:05.073 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:17:35.104 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:18:05.124 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:18:23.878  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 15:18:35.148 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:19:05.170 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:19:35.193 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:20:05.213 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:20:35.246 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:21:05.265 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:21:35.286 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:22:05.320 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:22:35.351 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:23:05.379 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:23:23.894  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 15:23:35.400 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:24:05.431 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:24:35.453 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:25:05.474 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:25:35.501 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:26:05.525 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:26:35.544 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:27:05.577 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:27:35.607 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:28:05.638 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:28:23.906  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 15:28:35.659 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:29:05.690 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:29:35.721 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:30:05.753 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:30:35.780 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:31:05.801 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:31:35.825 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:32:05.851 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:32:35.873 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:33:05.899 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:33:23.909  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 15:33:35.927 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:34:05.953 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:34:35.982 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:35:06.005 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:35:36.035 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:36:06.053 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:36:36.073 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:37:06.092 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:37:36.111 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:38:06.139 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:38:23.908  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 15:38:36.158 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:39:06.187 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:39:36.206 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:40:06.227 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:40:36.250 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:41:06.271 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:41:36.305 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:42:06.327 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:42:36.355 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:43:06.384 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:43:23.907  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 15:43:36.403 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:44:06.431 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:44:36.464 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:45:06.483 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:45:36.515 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:46:06.547 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:46:36.568 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:47:06.601 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:47:36.626 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:48:06.656 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:48:23.909  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 15:48:36.675 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:49:06.706 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:49:36.736 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:50:06.759 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:50:36.780 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:51:06.804 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:51:36.837 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:52:06.863 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:52:36.886 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:53:06.904 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:53:23.915  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 15:53:36.935 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:54:06.961 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:54:36.999 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:55:07.029 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:55:37.059 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:56:07.088 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:56:37.122 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:57:07.152 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:57:37.179 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:58:07.200 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:58:23.919  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 15:58:37.227 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:59:07.255 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 15:59:37.283 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:00:07.303 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:00:37.324 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:01:07.352 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:01:37.383 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:02:07.418 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:02:37.445 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:03:07.479 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:03:23.922  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 16:03:37.513 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:04:07.547 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:04:37.572 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:05:07.605 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:05:37.637 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:06:07.662 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:06:37.691 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:07:07.716 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:07:37.742 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:08:07.773 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:08:23.932  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 16:08:37.793 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:09:07.827 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:09:37.857 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:10:07.876 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:10:37.907 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:11:07.938 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:11:37.956 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:12:07.977 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:12:38.006 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:13:08.027 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:13:23.935  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 16:13:38.050 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:14:08.081 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:14:38.107 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:15:08.130 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:15:38.161 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:16:08.193 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:16:38.225 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:17:08.260 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:17:38.287 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:18:08.316 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:18:23.945  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 16:18:38.347 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:19:08.383 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:19:38.405 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:20:08.435 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:20:38.457 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:21:08.476 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:21:38.506 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:22:08.534 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:22:38.567 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:23:08.588 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:23:23.962  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 16:23:38.620 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:24:08.651 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:24:38.676 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:25:08.707 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:25:38.733 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:26:08.755 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:26:38.786 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:27:08.817 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:27:38.836 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:28:08.865 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:28:23.977  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 16:28:38.897 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:29:08.927 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:29:38.949 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:30:08.971 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:30:39.002 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:31:09.025 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:31:39.060 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:32:09.094 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:32:39.121 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:33:09.153 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:33:23.984  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 16:33:39.173 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:34:09.204 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:34:39.234 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:35:09.258 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:35:39.278 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:36:09.299 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:36:39.327 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:37:09.347 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:37:39.378 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:38:09.404 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:38:23.992  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 16:38:39.428 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:39:09.449 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:39:39.480 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:40:09.501 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:40:39.544 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:41:09.580 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:41:39.610 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:42:09.631 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:42:39.663 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:43:09.685 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:43:23.996  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 16:43:39.712 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:44:09.736 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:44:39.763 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:45:09.786 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:45:39.805 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:46:09.824 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:46:39.849 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:47:09.869 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:47:39.900 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:48:09.924 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:48:23.991  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 16:48:39.949 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:49:09.973 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:49:39.994 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:50:10.020 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:50:40.049 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:51:10.071 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:51:40.101 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:52:10.123 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:52:40.154 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:53:10.183 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:53:23.985  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 16:53:40.211 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:54:10.240 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:54:40.263 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:55:10.283 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:55:40.314 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:56:10.348 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:56:40.367 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:57:10.384 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:57:40.411 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:58:10.435 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:58:23.991  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 16:58:40.466 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:58:43.891 TRACE 19676 --- [reactor-http-nio-6] o.s.c.g.f.WeightCalculatorWebFilter      : Weights attr: {}
+2022-11-01 16:58:43.894 TRACE 19676 --- [reactor-http-nio-6] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/registration/**]" does not match against value "/customer/listPackages"
+2022-11-01 16:58:43.894 TRACE 19676 --- [reactor-http-nio-6] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/admin/**]" does not match against value "/customer/listPackages"
+2022-11-01 16:58:43.894 TRACE 19676 --- [reactor-http-nio-6] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "/customer/**" matches against value "/customer/listPackages"
+2022-11-01 16:58:43.895 DEBUG 19676 --- [reactor-http-nio-6] o.s.c.g.h.RoutePredicateHandlerMapping   : Route matched: 9d426ced-4a48-4950-b15e-6ba3bb95677d
+2022-11-01 16:58:43.895 DEBUG 19676 --- [reactor-http-nio-6] o.s.c.g.h.RoutePredicateHandlerMapping   : Mapping [Exchange: GET http://localhost:8087/customer/listPackages] to Route{id='9d426ced-4a48-4950-b15e-6ba3bb95677d', uri=lb://tour-service/, order=0, predicate=Paths: [/customer/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2022-11-01 16:58:43.896 DEBUG 19676 --- [reactor-http-nio-6] o.s.c.g.h.RoutePredicateHandlerMapping   : [1784c510-14] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@23e4db45
+2022-11-01 16:58:43.897 DEBUG 19676 --- [reactor-http-nio-6] o.s.c.g.handler.FilteringWebHandler      : Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@6ffd4c0d}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@310a7859}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@34c53688}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@149274cb}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.GatewayMetricsFilter@72557746}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@74c9e11}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ReactiveLoadBalancerClientFilter@31b0f02}, order = 10150], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerServiceInstanceCookieFilter@19ae2ee5}, order = 10151], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@118acf70}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@44b940a2}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@9fe720a}, order = 2147483647]]
+2022-11-01 16:58:43.898 TRACE 19676 --- [reactor-http-nio-6] o.s.c.g.filter.RouteToRequestUrlFilter   : RouteToRequestUrlFilter start
+2022-11-01 16:58:43.901 TRACE 19676 --- [reactor-http-nio-6] s.c.g.f.ReactiveLoadBalancerClientFilter : ReactiveLoadBalancerClientFilter url before: lb://tour-service/customer/listPackages
+2022-11-01 16:58:43.931 TRACE 19676 --- [reactor-http-nio-6] s.c.g.f.ReactiveLoadBalancerClientFilter : LoadBalancerClientFilter url chosen: http://host.docker.internal:8083/customer/listPackages
+2022-11-01 16:58:59.498 TRACE 19676 --- [reactor-http-nio-7] o.s.c.g.f.WeightCalculatorWebFilter      : Weights attr: {}
+2022-11-01 16:58:59.501 TRACE 19676 --- [reactor-http-nio-7] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/registration/**]" does not match against value "/customer/listPackages"
+2022-11-01 16:58:59.502 TRACE 19676 --- [reactor-http-nio-7] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "[/admin/**]" does not match against value "/customer/listPackages"
+2022-11-01 16:58:59.502 TRACE 19676 --- [reactor-http-nio-7] o.s.c.g.h.p.PathRoutePredicateFactory    : Pattern "/customer/**" matches against value "/customer/listPackages"
+2022-11-01 16:58:59.502 DEBUG 19676 --- [reactor-http-nio-7] o.s.c.g.h.RoutePredicateHandlerMapping   : Route matched: 9d426ced-4a48-4950-b15e-6ba3bb95677d
+2022-11-01 16:58:59.502 DEBUG 19676 --- [reactor-http-nio-7] o.s.c.g.h.RoutePredicateHandlerMapping   : Mapping [Exchange: GET http://localhost:8087/customer/listPackages] to Route{id='9d426ced-4a48-4950-b15e-6ba3bb95677d', uri=lb://tour-service/, order=0, predicate=Paths: [/customer/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2022-11-01 16:58:59.502 DEBUG 19676 --- [reactor-http-nio-7] o.s.c.g.h.RoutePredicateHandlerMapping   : [b41c17f4-15] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@23e4db45
+2022-11-01 16:58:59.502 DEBUG 19676 --- [reactor-http-nio-7] o.s.c.g.handler.FilteringWebHandler      : Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@6ffd4c0d}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@310a7859}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@34c53688}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@149274cb}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.GatewayMetricsFilter@72557746}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@74c9e11}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ReactiveLoadBalancerClientFilter@31b0f02}, order = 10150], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerServiceInstanceCookieFilter@19ae2ee5}, order = 10151], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@118acf70}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@44b940a2}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@9fe720a}, order = 2147483647]]
+2022-11-01 16:58:59.503 TRACE 19676 --- [reactor-http-nio-7] o.s.c.g.filter.RouteToRequestUrlFilter   : RouteToRequestUrlFilter start
+2022-11-01 16:58:59.503 TRACE 19676 --- [reactor-http-nio-7] s.c.g.f.ReactiveLoadBalancerClientFilter : ReactiveLoadBalancerClientFilter url before: lb://tour-service/customer/listPackages
+2022-11-01 16:58:59.503 TRACE 19676 --- [reactor-http-nio-7] s.c.g.f.ReactiveLoadBalancerClientFilter : LoadBalancerClientFilter url chosen: http://host.docker.internal:8083/customer/listPackages
+2022-11-01 16:59:05.002 ERROR 19676 --- [reactor-http-nio-6] a.w.r.e.AbstractErrorWebExceptionHandler : [1784c510-14]  500 Server Error for HTTP GET "/customer/listPackages"
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection timed out: no further information: host.docker.internal/192.168.1.34:8083
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/customer/listPackages" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779) ~[na:na]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-11-01 16:59:05.015 TRACE 19676 --- [reactor-http-nio-6] o.s.c.g.filter.GatewayMetricsFilter      : spring.cloud.gateway.requests tags: [tag(httpMethod=GET),tag(httpStatusCode=500),tag(outcome=SERVER_ERROR),tag(routeId=9d426ced-4a48-4950-b15e-6ba3bb95677d),tag(routeUri=lb://tour-service/),tag(status=INTERNAL_SERVER_ERROR)]
+2022-11-01 16:59:10.492 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 16:59:20.536 ERROR 19676 --- [reactor-http-nio-7] a.w.r.e.AbstractErrorWebExceptionHandler : [b41c17f4-15]  500 Server Error for HTTP GET "/customer/listPackages"
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection timed out: no further information: host.docker.internal/192.168.1.34:8083
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/customer/listPackages" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779) ~[na:na]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-11-01 16:59:20.538 TRACE 19676 --- [reactor-http-nio-7] o.s.c.g.filter.GatewayMetricsFilter      : spring.cloud.gateway.requests tags: [tag(httpMethod=GET),tag(httpStatusCode=500),tag(outcome=SERVER_ERROR),tag(routeId=9d426ced-4a48-4950-b15e-6ba3bb95677d),tag(routeUri=lb://tour-service/),tag(status=INTERNAL_SERVER_ERROR)]
+2022-11-01 16:59:40.525 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:00:10.557 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:00:40.590 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:01:10.610 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:01:40.637 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:02:10.661 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:02:40.693 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:03:10.726 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:03:23.992  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 17:03:40.748 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:04:10.781 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:04:40.815 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:05:10.843 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:05:40.864 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:06:10.886 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:06:40.916 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:07:10.934 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:07:40.954 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:08:10.982 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:08:23.993  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 17:08:41.004 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:09:11.029 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:09:41.050 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:10:11.079 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:10:41.105 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:11:11.128 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:11:41.151 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:12:11.181 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:12:41.203 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:13:11.228 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:13:23.993  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 17:13:41.252 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:14:11.272 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:14:41.298 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:15:11.323 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:15:41.353 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:16:11.384 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:16:41.414 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:17:11.439 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:17:41.463 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:18:11.488 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:18:23.996  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 17:18:41.507 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:19:11.536 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:19:41.568 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:20:11.590 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:20:41.613 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:21:11.636 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:21:41.669 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:22:11.692 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:22:41.718 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:23:11.736 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:23:24.007  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 17:23:41.773 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:24:11.796 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:24:41.820 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:25:11.844 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:25:41.874 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:26:11.894 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:26:41.925 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:27:11.945 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:27:41.967 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:28:11.995 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:28:24.024  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 17:28:42.022 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:29:12.055 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:29:42.077 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:30:12.101 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:30:42.126 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:31:12.150 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:31:42.168 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:32:12.188 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:32:42.208 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:33:12.229 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:33:24.038  INFO 19676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-11-01 17:33:42.253 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:34:12.284 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:34:42.317 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:35:12.342 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
+2022-11-01 17:35:42.375 DEBUG 19676 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.c.g.filter.GatewayMetricsFilter      : New routes count: 0
